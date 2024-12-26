@@ -11,7 +11,7 @@
         "ms-vscode.powershell", // PowerShell
         "github.codespaces", // GitHub Codespaces
         "pkief.material-icon-theme", // Material Icon Theme
-        "onokai.theme-monokai-pro-vscode", // Monokai Pro
+        "monokai.theme-monokai-pro-vscode", // Monokai Pro
         "bmewburn.vscode-intelephense-client", // PHP Intelephense
         "onecentlin.laravel-blade", // Laravel Blade Snippets
         "editorconfig.editorconfig", // EditorConfig for VS Code
