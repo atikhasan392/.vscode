@@ -1,0 +1,32 @@
+{
+    "recommendations": [
+        "ritwickdey.LiveServer", // Live Server
+        "vincaslt.highlight-matching-tag", // Highlight Matching Tag
+        "naumovs.color-highlight", // Color Highlight
+        "formulahendry.auto-close-tag", // Auto Close Tag
+        "formulahendry.auto-rename-tag", // Auto Rename Tag
+        "aaron-bond.better-comments", // Better Comments
+        "dracula-theme.theme-dracula", // Dracula Theme Official
+        "dbaeumer.vscode-eslint", // ESLint
+        "ms-vscode.powershell", // PowerShell
+        "github.codespaces", // GitHub Codespaces
+        "pkief.material-icon-theme", // Material Icon Theme
+        "onokai.theme-monokai-pro-vscode", // Monokai Pro
+        "bmewburn.vscode-intelephense-client", // PHP Intelephense
+        "onecentlin.laravel-blade", // Laravel Blade Snippets
+        "editorconfig.editorconfig", // EditorConfig for VS Code
+        "mikestead.dotenv", // DotENV
+        "shufo.vscode-blade-formatter", // Laravel Blade formatter
+        "damms005.devdb", // DevDb
+        "pgl.laravel-jump-controller", // laravel-jump-controller
+        "naoray.laravel-goto-components", // laravel-goto-components
+        "dzhavat.bracket-pair-toggler", // Bracket Pair Colorization Toggler
+        "sibiraj-s.vscode-scss-formatter", // SCSS Formatter
+        "glenn2223.live-sass", // Live Sass Compiler
+        "kisstkondoros.vscode-gutter-preview", // Image preview
+        "davidanson.vscode-markdownlint", // Markdown All in One
+        "christian-kohler.path-intellisense", // Path Intellisense
+        "shardulm94.trailing-spaces", // Trailing Spaces
+        "yuji9511.background", // Background
+    ]
+}
