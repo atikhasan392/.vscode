@@ -141,6 +141,4 @@ These settings and extensions enhance my productivity, helping me code faster an
 
 Happy coding! 👨‍💻👩‍💻
 
-```
-This `README.md` provides a detailed explanation of your settings and extensions for easy reference and sharing.
-```
+#### This `README.md` provides a detailed explanation of your settings and extensions for easy reference and sharing.
