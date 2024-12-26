@@ -10,7 +10,7 @@ code --install-extension dbaeumer.vscode-eslint # ESLint
 code --install-extension shalldie.background # PowerShell
 code --install-extension github.codespaces # GitHub Codespaces
 code --install-extension pkief.material-icon-theme # Material Icon Theme
-code --install-extension onokai.theme-monokai-pro-vscode # Monokai Pro
+code --install-extension monokai.theme-monokai-pro-vscode # Monokai Pro
 code --install-extension bmewburn.vscode-intelephense-client # PHP Intelephense
 code --install-extension onecentlin.laravel-blade # Laravel Blade Snippets
 code --install-extension editorconfig.editorconfig # EditorConfig for VS Code
