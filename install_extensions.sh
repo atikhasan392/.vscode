@@ -28,3 +28,14 @@ code --install-extension christian-kohler.path-intellisense # Path Intellisense
 code --install-extension shardulm94.trailing-spaces # Trailing Spaces
 code --install-extension katsute.code-background # Background
 code --install-extension github.copilot # GitHub Copilot
+code --install-extension kisstkondoros.vscode-gutter-preview # Image preview
+code --install-extension bradlc.vscode-tailwindcss # Tailwind CSS IntelliSense
+code --install-extension joy-yu.css-snippets # CSS Snippets
+code --install-extension zignd.html-css-class-completion # IntelliSense for CSS class names in HTML
+code --install-extension solnurkarim.html-to-css-autocompletion # HTML to CSS autocompletion
+code --install-extension anteprimorac.html-end-tag-labels # HTML End Tag Labels
+code --install-extension xdebug.php-debug # PHP Debug
+code --install-extension zobo.php-intellisense # PHP IntelliSense
+code --install-extension xabikos.javascriptsnippets # JavaScript (ES6) code snippets
+code --install-extension sidthesloth.svg-snippets # SVG Snippets
+code --install-extension simonsiefke.svg-preview # Svg Preview
