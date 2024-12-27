@@ -26,5 +26,5 @@ code --install-extension kisstkondoros.vscode-gutter-preview # Image preview
 code --install-extension davidanson.vscode-markdownlint # Markdown All in One
 code --install-extension christian-kohler.path-intellisense # Path Intellisense
 code --install-extension shardulm94.trailing-spaces # Trailing Spaces
-code --install-extension yuji9511.background # Background
+code --install-extension katsute.code-background # Background
 code --install-extension github.copilot # GitHub Copilot
