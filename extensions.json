@@ -29,5 +29,16 @@
         "shardulm94.trailing-spaces", // Trailing Spaces
         "katsute.code-background", // Background
         "github.copilot", // GitHub Copilot
+        "kisstkondoros.vscode-gutter-preview", // Image preview
+        "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+        "joy-yu.css-snippets", // CSS Snippets
+        "zignd.html-css-class-completion", // IntelliSense for CSS class names in HTML
+        "solnurkarim.html-to-css-autocompletion", // HTML to CSS autocompletion
+        "anteprimorac.html-end-tag-labels", // HTML End Tag Labels
+        "xdebug.php-debug", // PHP Debug
+        "zobo.php-intellisense", // PHP IntelliSense
+        "xabikos.javascriptsnippets", // JavaScript (ES6) code snippets
+        "sidthesloth.svg-snippets", // SVG Snippets
+        "simonsiefke.svg-preview", // Svg Preview
     ]
 }
