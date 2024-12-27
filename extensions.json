@@ -27,7 +27,7 @@
         "davidanson.vscode-markdownlint", // Markdown All in One
         "christian-kohler.path-intellisense", // Path Intellisense
         "shardulm94.trailing-spaces", // Trailing Spaces
-        "yuji9511.background", // Background
+        "katsute.code-background", // Background
         "github.copilot", // GitHub Copilot
     ]
 }
