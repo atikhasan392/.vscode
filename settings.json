@@ -3,7 +3,7 @@
     "files.autoSave": "afterDelay", // Automatically save files after a brief delay.
     "files.encoding": "utf8", // Set file encoding to UTF-8, ensuring compatibility with various systems.
     "files.trimTrailingWhitespace": true, // Automatically remove trailing whitespace from lines when saving.
-    "files.insertFinalNewline": true, // Ensure that files end with a newline, useful for compatibility with some tools.
+    "files.insertFinalNewline": false, // Ensure that files end with a newline, useful for compatibility with some tools.
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
@@ -13,18 +13,12 @@
 
     // -- Editor Appearance Settings
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
-    "editor.formatOnPaste": false, // Automatically format code when pasting into the editor.
-    "editor.formatOnSave": false, // Disable auto-formatting when saving files.
-    "editor.formatOnType": false, // Disable auto-formatting while typing.
-    "editor.minimap.enabled": true, // Show the minimap for easier navigation in long files.
     "editor.cursorBlinking": "smooth", // Enable smooth cursor blinking for a subtle effect.
-    "editor.cursorWidth": 2, // Set cursor width to 2 pixels, providing better visibility.
-    "editor.cursorStyle": "line", // Use a line-style cursor for clearer visibility.
+    "editor.codeActionsOnSave": {}, // Placeholder for any future actions to be executed when saving a file (e.g., format on save).
     "editor.renderControlCharacters": true, // Render control characters (e.g., line breaks) to help with debugging.
     "editor.linkedEditing": true, // Enable linked editing in HTML/XML files, allowing tag names to be edited together.
     "editor.indentSize": "tabSize", // Ensure indent size is consistent with tab size setting.
-    "editor.stickyScroll.enabled": false, // Disable sticky scroll to keep the editor view fixed.
-    "breadcrumbs.enabled": false, // Disable breadcrumbs in the editor for a cleaner interface.
+    "breadcrumbs.enabled": true, // Disable breadcrumbs in the editor for a cleaner interface.
 
     // -- Git Settings
     "git.autofetch": true, // Automatically fetch changes from remote repositories for easy synchronization.
@@ -34,8 +28,6 @@
     "git.autoRepositoryDetection": "openEditors", // Detect git repositories based on the open editors, rather than the workspace.
 
     // -- Terminal Settings
-    "terminal.integrated.fontSize": 14, // Set the font size for the integrated terminal.
-    "terminal.integrated.cursorBlinking": true, // Enable blinking for the terminal cursor.
     "terminal.integrated.scrollback": 10000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "PowerShell", // Set PowerShell as the default terminal profile on Windows.
 
@@ -50,26 +42,6 @@
     "workbench.editor.showTabs": "multiple", // Always display multiple tabs for easier file switching.
     "workbench.editor.tabSizing": "shrink", // Set the tab size to shrink when there are multiple open tabs, saving space.
     "workbench.editor.labelFormat": "short", // Use short labels for editor tabs for a cleaner appearance.
-
-    // -- Extensions related
-    "files.associations": {
-        "*.php": "php", // Associate PHP files with PHP syntax highlighting.
-        "*.js": "javascript", // Associate JS files with JavaScript syntax highlighting.
-        "*.css": "css", // Associate CSS files with CSS syntax highlighting.
-        "*.html": "html", // Associate HTML files with HTML syntax highlighting.
-        "*.json": "json", // Associate JSON files with JSON syntax highlighting.
-        "*.ts": "typescript", // Associate TypeScript files with TypeScript syntax highlighting.
-        "*.scss": "scss", // Associate SCSS files with SCSS syntax highlighting.
-        "*.md": "markdown" // Associate Markdown files with Markdown syntax highlighting.
-    },
-
-    // -- Extension update and installation settings
-    "extensions.autoUpdate": true, // Automatically update extensions when new versions are available.
-    "extensions.autoCheckUpdates": true, // Automatically check for updates for installed extensions.
-    "extensions.autoInstall": true, // Automatically install recommended extensions.
-    "background.enabled": true, // Enable background processes like extension auto-updates.
-    "editor.codeActionsOnSave": {}, // Placeholder for any future actions to be executed when saving a file (e.g., format on save).
-    "explorer.confirmDragAndDrop": false, // Disable the confirmation dialog when dragging and dropping files in the explorer.
 
     // -- Background Images
     "background.autoInstall": true,
