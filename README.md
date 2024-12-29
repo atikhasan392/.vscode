@@ -124,7 +124,7 @@ Here are the extensions I use to enhance my development experience:
 19. **[DevDb](https://marketplace.visualstudio.com/items?itemName=damms005.devdb)** - Integrates database management within VS Code.
 20. **[laravel-jump-controller](https://marketplace.visualstudio.com/items?itemName=pgl.laravel-jump-controller)** - Jump to related controller methods in Laravel projects.
 21. **[laravel-goto-components](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components)** - Quickly navigate to Laravel components.
-22. **[Bracket Pair Colorization Toggler](https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler)** - Toggle bracket pair colorization.
+22. **[Bracket Pair Color DLW](https://marketplace.visualstudio.com/items?itemName=bracketpaircolordlw.bracket-pair-color-dlw)** - Toggle bracket pair colorization.
 23. **[SCSS Formatter](https://marketplace.visualstudio.com/items?itemName=sibiraj-s.vscode-scss-formatter)** - Automatically formats SCSS files.
 24. **[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)** - Live Sass compiler for real-time styling.
 25. **[Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)** - Preview images directly in VS Code.
