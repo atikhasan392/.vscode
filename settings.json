@@ -71,11 +71,7 @@
 
     // -- Background Images
     "background.autoInstall": true,
-    "background.editorBackgrounds": [
-        "c:/Users/atikh/OneDrive/Pictures/vscode/111923744_p0_master1200.jpg",
-    ],
-    "background.sidebarBackgrounds": [
-        "c:/Users/atikh/OneDrive/Pictures/vscode/121563433_p0_master1200.jpg",
-    ],
-    // "background.panelBackgrounds": [""],
+    "background.editorBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/editor.jpg",],
+    "background.sidebarBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/sidebar.jpg",],
+    "background.panelBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/panel.jpg"],
 }
