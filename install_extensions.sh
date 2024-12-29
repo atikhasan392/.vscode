@@ -19,7 +19,7 @@ code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
 code --install-extension damms005.devdb # DevDb
 code --install-extension pgl.laravel-jump-controller # laravel-jump-controller
 code --install-extension naoray.laravel-goto-components # laravel-goto-components
-code --install-extension dzhavat.bracket-pair-toggler # Bracket Pair Colorization Toggler
+code --install-extension bracketpaircolordlw.bracket-pair-color-dlw # Bracket Pair Color DLW
 code --install-extension sibiraj-s.vscode-scss-formatter # SCSS Formatter
 code --install-extension glenn2223.live-sass # Live Sass Compiler
 code --install-extension kisstkondoros.vscode-gutter-preview # Image preview
