@@ -13,7 +13,9 @@
 
     // -- Editor Appearance Settings
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
-    "editor.formatOnPaste": true, // Automatically format code when pasting into the editor.
+    "editor.formatOnPaste": false, // Automatically format code when pasting into the editor.
+    "editor.formatOnSave": false, // Disable auto-formatting when saving files.
+    "editor.formatOnType": false, // Disable auto-formatting while typing.
     "editor.minimap.enabled": true, // Show the minimap for easier navigation in long files.
     "editor.cursorBlinking": "smooth", // Enable smooth cursor blinking for a subtle effect.
     "editor.cursorWidth": 2, // Set cursor width to 2 pixels, providing better visibility.
