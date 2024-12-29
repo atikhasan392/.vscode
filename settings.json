@@ -71,7 +71,7 @@
 
     // -- Background Images
     "background.autoInstall": true,
-    "background.editorBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/editor.jpg",],
-    "background.sidebarBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/sidebar.jpg",],
+    "background.editorBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/editor.jpg"],
+    "background.sidebarBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/sidebar.jpg"],
     "background.panelBackgrounds": ["c:/Users/atikh/OneDrive/Pictures/vscode/panel.jpg"],
 }
