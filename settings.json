@@ -45,12 +45,15 @@
     // -- Background Images
     "background.autoInstall": true,
     "background.editorBackgrounds": [
-        "c:/Users/atikh/OneDrive/Pictures/vscode/editor.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/2.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/3.jpg",
     ],
     "background.sidebarBackgrounds": [
-        "c:/Users/atikh/OneDrive/Pictures/vscode/sidebar.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/2.jpg",
     ],
     "background.panelBackgrounds": [
-        "c:/Users/atikh/OneDrive/Pictures/vscode/panel.jpg",
+        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg",
     ],
 }
