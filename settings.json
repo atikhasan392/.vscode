@@ -44,16 +44,7 @@
 
     // -- Background Images
     "background.autoInstall": true,
-    "background.editorBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg",
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/2.jpg",
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/3.jpg",
-    ],
-    "background.sidebarBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg",
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/2.jpg",
-    ],
-    "background.panelBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg",
-    ],
+    "background.editorBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"],
+    "background.sidebarBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg"],
+    "background.panelBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg"],
 }
