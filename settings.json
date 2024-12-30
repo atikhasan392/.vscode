@@ -41,7 +41,6 @@
     "workbench.editor.enablePreview": false, // Disable preview mode to always open files in full editor mode.
     "workbench.editor.showTabs": "multiple", // Always display multiple tabs for easier file switching.
     "workbench.editor.tabSizing": "shrink", // Set the tab size to shrink when there are multiple open tabs, saving space.
-    "workbench.editor.labelFormat": "short", // Use short labels for editor tabs for a cleaner appearance.
 
     // -- Background Images
     "background.autoInstall": true,
