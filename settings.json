@@ -39,7 +39,7 @@
 
     // -- Advanced Performance Settings
     "explorer.compactFolders": false, // Disable folder compaction in the explorer for easier navigation of complex directory structures.
-    "workbench.editor.enablePreview": false, // Disable preview mode to always open files in full editor mode.
+    "workbench.editor.enablePreview": true, // Disable preview mode to always open files in full editor mode.
     "workbench.editor.showTabs": "multiple", // Always display multiple tabs for easier file switching.
     "workbench.editor.tabSizing": "shrink", // Set the tab size to shrink when there are multiple open tabs, saving space.
 
