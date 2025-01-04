@@ -14,6 +14,7 @@
     // -- Editor Appearance Settings
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
     "editor.cursorBlinking": "smooth", // Enable smooth cursor blinking for a subtle effect.
+    "editor.cursorSmoothCaretAnimation": true, // Enable smooth caret animation for a more modern look.
     "editor.codeActionsOnSave": {}, // Placeholder for any future actions to be executed when saving a file (e.g., format on save).
     "editor.renderControlCharacters": true, // Render control characters (e.g., line breaks) to help with debugging.
     "editor.linkedEditing": true, // Enable linked editing in HTML/XML files, allowing tag names to be edited together.
