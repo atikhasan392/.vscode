@@ -7,7 +7,6 @@ code --install-extension formulahendry.auto-rename-tag # Auto Rename Tag
 code --install-extension aaron-bond.better-comments # Better Comments
 code --install-extension dracula-theme.theme-dracula # Dracula Theme Official
 code --install-extension dbaeumer.vscode-eslint # ESLint
-code --install-extension shalldie.background # PowerShell
 code --install-extension github.codespaces # GitHub Codespaces
 code --install-extension pkief.material-icon-theme # Material Icon Theme
 code --install-extension monokai.theme-monokai-pro-vscode # Monokai Pro
