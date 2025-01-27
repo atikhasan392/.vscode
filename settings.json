@@ -21,6 +21,7 @@
     "editor.indentSize": "tabSize", // Ensure indent size is consistent with tab size setting.
     "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor for a more traditional scrolling experience.
     "breadcrumbs.enabled": true, // Disable breadcrumbs in the editor for a cleaner interface.
+    "window.titleBarStyle": "custom",
 
     // -- Git Settings
     "git.autofetch": true, // Automatically fetch changes from remote repositories for easy synchronization.
