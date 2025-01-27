@@ -43,4 +43,3 @@ code --install-extension zobo.php-intellisense # PHP IntelliSense
 code --install-extension xabikos.javascriptsnippets # JavaScript (ES6) code snippets
 code --install-extension sidthesloth.svg-snippets # SVG Snippets
 code --install-extension simonsiefke.svg-preview # Svg Preview
-code --install-extension ms-vscode.vscode-speech # VS Code Speech
