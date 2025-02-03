@@ -22,6 +22,11 @@
     "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor for a more traditional scrolling experience.
     "breadcrumbs.enabled": true, // Disable breadcrumbs in the editor for a cleaner interface.
     "window.titleBarStyle": "custom",
+    "editor.formatOnSave": true,
+
+    // -- HTML Formatting
+    "html.format.wrapLineLength": 0,
+    "html.format.indentInnerHtml": true,
 
     // -- Git Settings
     "git.autofetch": true, // Automatically fetch changes from remote repositories for easy synchronization.
