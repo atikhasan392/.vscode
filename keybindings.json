@@ -1,17 +1,17 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "",
+        "key": "ctrl+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+8",
         "command": "github.copilot.generate",
-        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
     },
     {
         "key": "ctrl+enter",
         "command": "-github.copilot.generate",
-        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.openRecent"
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
     }
 ]
