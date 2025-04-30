@@ -22,7 +22,7 @@
     "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor for a more traditional scrolling experience.
     "breadcrumbs.enabled": true, // Disable breadcrumbs in the editor for a cleaner interface.
     "window.titleBarStyle": "custom",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false, // Disable format on save to avoid automatic formatting when saving files.
 
     // -- HTML Formatting
     "html.format.wrapLineLength": 0,
