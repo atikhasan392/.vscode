@@ -37,7 +37,7 @@
 
     // -- Terminal Settings
     "terminal.integrated.scrollback": 10000, // Increase the scrollback buffer in the terminal to store more output.
-    "terminal.integrated.defaultProfile.windows": "PowerShell", // Set PowerShell as the default terminal profile on Windows.
+    "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
 
     // -- Theme and Icon Settings
     "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
