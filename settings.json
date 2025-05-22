@@ -41,7 +41,7 @@
 
     // -- Theme and Icon Settings
     "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
-    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons", // Use the Material Design icon theme for a modern and familiar icon style.
+    "workbench.iconTheme": "material-icon-theme", // Use the Material Design icon theme for a modern and familiar icon style.
     "workbench.statusBar.visible": true, // Keep the status bar visible to display important information.
 
     // -- Advanced Performance Settings
