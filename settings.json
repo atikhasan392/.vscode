@@ -13,7 +13,7 @@
 
     // -- Editor Appearance Settings
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
-    "editor.cursorBlinking": "smooth", // Enable smooth cursor blinking for a subtle effect.
+    "editor.cursorBlinking": "expand", // Enable smooth cursor blinking for a subtle effect.
     "editor.cursorSmoothCaretAnimation": true, // Enable smooth caret animation for a more modern look.
     "editor.codeActionsOnSave": {}, // Placeholder for any future actions to be executed when saving a file (e.g., format on save).
     "editor.renderControlCharacters": true, // Render control characters (e.g., line breaks) to help with debugging.
@@ -41,7 +41,7 @@
 
     // -- Theme and Icon Settings
     "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
-    "workbench.iconTheme": "material-icon-theme", // Use the Material Design icon theme for a modern and familiar icon style.
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons", // Use the Material Design icon theme for a modern and familiar icon style.
     "workbench.statusBar.visible": true, // Keep the status bar visible to display important information.
 
     // -- Advanced Performance Settings
