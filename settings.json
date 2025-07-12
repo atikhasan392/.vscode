@@ -4,6 +4,7 @@
     "files.encoding": "utf8", // Set file encoding to UTF-8, ensuring compatibility with various systems.
     "files.trimTrailingWhitespace": true, // Automatically remove trailing whitespace from lines when saving.
     "files.insertFinalNewline": false, // Ensure that files end with a newline, useful for compatibility with some tools.
+    "explorer.confirmDragAndDrop": false, // Disable confirmation prompts when dragging and dropping files in the explorer.
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
