@@ -18,7 +18,6 @@ code --install-extension amiralizadeh9480.laravel-extra-intellisense # Laravel E
 code --install-extension austenc.laravel-blade-spacer # Laravel Blade Spacer
 code --install-extension editorconfig.editorconfig # EditorConfig for VS Code
 code --install-extension mikestead.dotenv # DotENV
-code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
 code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
 code --install-extension mohamedbenhida.laravel-intellisense # laravel intellisense
 code --install-extension damms005.devdb # DevDb
