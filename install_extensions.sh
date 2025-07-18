@@ -16,7 +16,6 @@ code --install-extension absszero.vscode-laravel-goto # Laravel Goto
 code --install-extension ryannaddy.laravel-artisan # Laravel Artisan
 code --install-extension amiralizadeh9480.laravel-extra-intellisense # Laravel Extra Intellisense
 code --install-extension austenc.laravel-blade-spacer # Laravel Blade Spacer
-code --install-extension editorconfig.editorconfig # EditorConfig for VS Code
 code --install-extension mikestead.dotenv # DotENV
 code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
 code --install-extension mohamedbenhida.laravel-intellisense # laravel intellisense
