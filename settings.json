@@ -25,6 +25,12 @@
     "window.titleBarStyle": "custom",
     "editor.formatOnSave": false, // Disable format on save to avoid automatic formatting when saving files.
 
+    // -- Security Workspace Trust
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+
     // -- HTML Formatting
     "html.format.wrapLineLength": 0, // Disable line wrapping in HTML formatting to keep tags on a single line.
     "html.format.indentInnerHtml": true, // Indent inner HTML content for better readability.
