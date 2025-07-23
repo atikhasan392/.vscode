@@ -5,6 +5,7 @@
     "files.trimTrailingWhitespace": true, // Automatically remove trailing whitespace from lines when saving.
     "files.insertFinalNewline": false, // Ensure that files end with a newline, useful for compatibility with some tools.
     "explorer.confirmDragAndDrop": false, // Disable confirmation prompts when dragging and dropping files in the explorer.
+    "explorer.confirmPasteNative": false, // Disable confirmation prompts when pasting files in the explorer.
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
@@ -22,7 +23,7 @@
     "editor.indentSize": "tabSize", // Ensure indent size is consistent with tab size setting.
     "editor.stickyScroll.enabled": false, // Disable sticky scroll in the editor for a more traditional scrolling experience.
     "breadcrumbs.enabled": true, // Disable breadcrumbs in the editor for a cleaner interface.
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "custom", // Use a custom title bar style for a modern look.
     "editor.formatOnSave": false, // Disable format on save to avoid automatic formatting when saving files.
 
     // -- Language Specific Settings
@@ -56,6 +57,7 @@
     "workbench.editor.enablePreview": true, // Disable preview mode to always open files in full editor mode.
     "workbench.editor.showTabs": "multiple", // Always display multiple tabs for easier file switching.
     "workbench.editor.tabSizing": "shrink", // Set the tab size to shrink when there are multiple open tabs, saving space.
+    "workbench.secondarySideBar.defaultVisibility": "hidden", // Hide the secondary sidebar by default to reduce clutter.
 
     // -- Background Images
     "background.autoInstall": true, // Automatically install recommended extensions for background images.
