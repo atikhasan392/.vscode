@@ -25,11 +25,11 @@
     "window.titleBarStyle": "custom",
     "editor.formatOnSave": false, // Disable format on save to avoid automatic formatting when saving files.
 
-    // -- Security Workspace Trust
-    "security.workspace.trust.untrustedFiles": "open",
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.emptyWindow": false,
-    "security.workspace.trust.enabled": false,
+    // -- Language Specific Settings
+    "security.workspace.trust.untrustedFiles": "open", // Open untrusted files without trust prompts, allowing for quick access to files without security checks.
+    "security.workspace.trust.banner": "never", // Disable the workspace trust banner to avoid interruptions when opening files.
+    "security.workspace.trust.emptyWindow": false, // Do not show the trust prompt when opening an empty window, allowing for a smoother startup experience.
+    "security.workspace.trust.enabled": false, // Disable workspace trust to allow unrestricted access to files without trust prompts.
 
     // -- HTML Formatting
     "html.format.wrapLineLength": 0, // Disable line wrapping in HTML formatting to keep tags on a single line.
@@ -62,4 +62,12 @@
     "background.editorBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"], // Set a custom background image for the editor.
     "background.sidebarBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg"], // Set a custom background image for the sidebar.
     "background.panelBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg"], // Set a custom background image for the panel.
+
+    // -- Copilot Settings
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
 }
