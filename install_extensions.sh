@@ -45,3 +45,4 @@ code --install-extension tabbyml.vscode-tabby # Tabby
 code --install-extension astro-build.astro-vscode # Astro
 code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
 code --install-extension github.vscode-github-actions # GitHub Actions
+code --install-extension biati.vscode-show-hide-excluded-files # Show/Hide Excluded Files
