@@ -14,6 +14,7 @@
     "editor.fontLigatures": true, // Enable font ligatures for a modern, clean look in coding fonts.
 
     // -- Editor Appearance Settings
+    "editor.detectIndentation": false, // Disable auto-detection of indentation for better control over indentation.
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
     "editor.insertSpaces": true, // Use spaces instead of tabs for indentation.
     "[html]": {
