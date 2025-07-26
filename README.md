@@ -8,10 +8,10 @@ This repository contains my personal Visual Studio Code (VS Code) settings and e
 
 ## Install Extensions
 
-To install all recommended extensions, you can use the provided `install_extensions.sh` script. Run the following command in your terminal:
+To install all recommended extensions, you can use the provided `install.sh` script. Run the following command in your terminal:
 
 ```bash
-bash install_extensions.sh
+bash install.sh
 ```
 
 This script will install all the extensions that I use for web development, theme customization, and productivity enhancement.
