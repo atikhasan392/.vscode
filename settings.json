@@ -15,6 +15,25 @@
 
     // -- Editor Appearance Settings
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
+    "editor.insertSpaces": true, // Use spaces instead of tabs for indentation.
+    "[html]": {
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 4
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "[json]": {
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
     "editor.cursorBlinking": "expand", // Enable smooth cursor blinking for a subtle effect.
     "editor.cursorSmoothCaretAnimation": "on", // Enable smooth caret animation for a more modern look.
     "editor.codeActionsOnSave": {}, // Placeholder for any future actions to be executed when saving a file (e.g., format on save).
