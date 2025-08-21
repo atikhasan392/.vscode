@@ -9,8 +9,8 @@
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
-    "editor.fontSize": 15, // Set font size in the editor for readability.
-    "editor.fontWeight": "500", // Use a medium font weight for balanced text visibility.
+    "editor.fontSize": 14, // Set font size in the editor for readability.
+    "editor.fontWeight": "300", // Use a medium font weight for balanced text visibility.
     "editor.fontLigatures": true, // Enable font ligatures for a modern, clean look in coding fonts.
 
     // -- Editor Appearance Settings
