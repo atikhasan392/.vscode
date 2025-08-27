@@ -9,7 +9,7 @@
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
-    "editor.fontSize": 12, // Set font size in the editor for readability.
+    "editor.fontSize": 13, // Set font size in the editor for readability.
     "editor.fontWeight": "300", // Use a medium font weight for balanced text visibility.
     "editor.fontLigatures": true, // Enable font ligatures for a modern, clean look in coding fonts.
 
@@ -69,9 +69,40 @@
 
     // -- Copilot Settings
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": true,
         "markdown": true,
         "scminput": true
+    },
+
+    // -- Global look settings for Material Icon Theme
+    "material-icon-theme.opacity": 1, // Sets the opacity level of icons. 1 means fully visible, 0 would be completely transparent.
+    "material-icon-theme.saturation": 1, // Sets the color saturation of icons. 1 is full color, 0 would make icons grayscale.
+    "material-icon-theme.folders.theme": "specific", // Chooses a specific theme style for folder icons instead of using default or generic icons.
+    "material-icon-theme.folders.color": "#FF5722", // Assigns a custom color to all folder icons, making them visually distinct in the explorer.
+    "material-icon-theme.files.color": "#42a5f5", // Assigns a custom color to all file icons for easier identification based on file type or project style.
+    "material-icon-theme.hidesExplorerArrows": false, // Determines whether the small expand/collapse arrows in the explorer tree are shown. False means arrows are visible.
+
+    // -- Laravel specific file associations
+    "material-icon-theme.files.associations": {
+        "*.blade.php": "laravel", // Icon for Blade template files, which combine HTML and PHP, representing Laravel view files
+        "artisan": "laravel", // Icon for the Laravel Artisan CLI tool, used to run various commands for the project
+        ".env": "tune", // Icon for environment configuration files, usually containing database credentials, API keys, and other settings
+        "composer.json": "json", // Icon for Composer configuration files, specifying project dependencies and scripts
+        "composer.lock": "json", // Icon for the Composer lock file, which locks specific package versions for consistency
+        "package.json": "nodejs", // Icon for Node.js/NPM package configuration files, specifying dependencies and scripts
+        "webpack.mix.js": "webpack", // Icon for Laravel Mix configuration files, used for compiling and bundling CSS/JS assets
+        "vite.config.js": "vite", // Icon for Vite configuration files, used for frontend asset building and hot-reloading
+        "phpunit.xml": "test-js" // Icon for PHPUnit configuration files, which define unit and feature test settings
+    },
+
+    // -- Laravel specific folder associations
+    "material-icon-theme.folders.associations": {
+        "bootstrap": "core", // Icon for Laravel 'bootstrap' folder, containing essential framework setup files like app.php and cache.
+        "Http": "global", // Folder containing HTTP controllers and middleware, responsible for request handling and routing
+        "factories": "repository", // Folder for model factories, used to generate sample data for database seeding
+        "migrations": "class", // Folder for database migrations, storing instructions for creating or modifying tables
+        "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
+        "storage": "server" // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
 }
