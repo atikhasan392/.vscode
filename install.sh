@@ -46,3 +46,4 @@ code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js Int
 code --install-extension github.vscode-github-actions # GitHub Actions
 code --install-extension biati.vscode-show-hide-excluded-files # Show/Hide Excluded Files
 code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
+code --install-extension stylelint.vscode-stylelint # Stylelint
