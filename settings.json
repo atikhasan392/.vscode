@@ -13,6 +13,11 @@
     "editor.fontWeight": "300", // Use a medium font weight for balanced text visibility.
     "editor.fontLigatures": true, // Enable font ligatures for a modern, clean look in coding fonts.
 
+    // -- Disable CSS/SCSS/LESS Validation to prevent warnings for browser-specific properties
+    "css.validate": false, // Disable built-in CSS validation
+    "scss.validate": false, // Disable built-in SCSS validation
+    "less.validate": false, // Disable built-in LESS validation
+
     // -- Editor Appearance Settings
     "editor.detectIndentation": false, // Disable auto-detection of indentation for better control over indentation.
     "editor.tabSize": 4, // Set the tab size to 4 spaces, which is a common standard.
@@ -48,6 +53,7 @@
     // -- Terminal Settings
     "terminal.integrated.scrollback": 10000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
+    "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable the warning when pasting multiple lines in terminal
 
     // -- Theme and Icon Settings
     "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
@@ -69,10 +75,11 @@
 
     // -- Copilot Settings
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": true,
         "markdown": true,
-        "scminput": true
+        "scminput": true,
+        "php": false
     },
 
     // -- Global look settings for Material Icon Theme
