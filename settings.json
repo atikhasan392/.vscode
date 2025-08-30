@@ -51,7 +51,9 @@
     "git.autoRepositoryDetection": "openEditors", // Detect git repositories based on the open editors, rather than the workspace.
 
     // -- Terminal Settings
-    "terminal.integrated.scrollback": 10000, // Increase the scrollback buffer in the terminal to store more output.
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.wordWrap": true,
+    "terminal.integrated.scrollback": 20000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
     "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable the warning when pasting multiple lines in terminal
 
