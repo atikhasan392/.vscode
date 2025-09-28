@@ -9,7 +9,7 @@
 
     // -- Font Customization Settings
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace", // Set the font family to JetBrains Mono for a programmer-friendly experience.
-    "editor.fontSize": 13, // Set font size in the editor for readability.
+    "editor.fontSize": 15, // Set font size in the editor for readability.
     "editor.fontWeight": "300", // Use a medium font weight for balanced text visibility.
     "editor.fontLigatures": true, // Enable font ligatures for a modern, clean look in coding fonts.
 
@@ -17,6 +17,19 @@
     "css.validate": false, // Disable built-in CSS validation
     "scss.validate": false, // Disable built-in SCSS validation
     "less.validate": false, // Disable built-in LESS validation
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/assets/css"
+      },
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/assets/css"
+      }
+    ],
 
     // -- Editor Appearance Settings
     "editor.detectIndentation": false, // Disable auto-detection of indentation for better control over indentation.
@@ -77,18 +90,18 @@
 
     // -- Copilot Settings
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": true,
         "markdown": true,
         "scminput": true,
-        "php": false
+        "php": true
     },
 
     // -- Global look settings for Material Icon Theme
     "material-icon-theme.opacity": 1, // Sets the opacity level of icons. 1 means fully visible, 0 would be completely transparent.
     "material-icon-theme.saturation": 1, // Sets the color saturation of icons. 1 is full color, 0 would make icons grayscale.
     "material-icon-theme.folders.theme": "specific", // Chooses a specific theme style for folder icons instead of using default or generic icons.
-    "material-icon-theme.folders.color": "#FF5722", // Assigns a custom color to all folder icons, making them visually distinct in the explorer.
+    "material-icon-theme.folders.color": "#42a5f5", // Assigns a custom color to all folder icons, making them visually distinct in the explorer.
     "material-icon-theme.files.color": "#42a5f5", // Assigns a custom color to all file icons for easier identification based on file type or project style.
     "material-icon-theme.hidesExplorerArrows": false, // Determines whether the small expand/collapse arrows in the explorer tree are shown. False means arrows are visible.
 
@@ -114,4 +127,6 @@
         "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
         "storage": "server" // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
+    "Devdb.colorTheme": "dark",
+    "liveServer.settings.donotShowInfoMsg": true,
 }
