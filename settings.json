@@ -129,4 +129,5 @@
     },
     "Devdb.colorTheme": "dark",
     "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
 }
