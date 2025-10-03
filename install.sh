@@ -11,6 +11,7 @@ code --install-extension github.codespaces # GitHub Codespaces
 code --install-extension pkief.material-icon-theme # Material Icon Theme
 code --install-extension monokai.theme-monokai-pro-vscode # Monokai Pro
 code --install-extension bmewburn.vscode-intelephense-client # PHP Intelephense
+code --install-extension muath-ye.composer-intelephense # Composer Intelephense
 code --install-extension onecentlin.laravel-blade # Laravel Blade Snippets
 code --install-extension absszero.vscode-laravel-goto # Laravel Goto
 code --install-extension ryannaddy.laravel-artisan # Laravel Artisan
@@ -41,6 +42,7 @@ code --install-extension zobo.php-intellisense # PHP IntelliSense
 code --install-extension xabikos.javascriptsnippets # JavaScript (ES6) code snippets
 code --install-extension simonsiefke.svg-preview # Svg Preview
 code --install-extension tabbyml.vscode-tabby # Tabby
+code --install-extension continue.continue # Continue - open-source AI code agent
 code --install-extension astro-build.astro-vscode # Astro
 code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
 code --install-extension github.vscode-github-actions # GitHub Actions
