@@ -90,7 +90,7 @@
 
     // -- Copilot Settings
     "github.copilot.enable": {
-        "*": true, // Enable GitHub Copilot for all file types by default.
+        "*": false, // Enable or Disable GitHub Copilot for all file types by default.
         "plaintext": true, // Enable Copilot for plain text files.
         "markdown": true, // Enable Copilot for Markdown files.
         "scminput": true, // Enable Copilot for SCM input files.
