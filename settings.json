@@ -17,17 +17,17 @@
     "css.validate": false, // Disable built-in CSS validation
     "scss.validate": false, // Disable built-in SCSS validation
     "less.validate": false, // Disable built-in LESS validation
-    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.generateMap": true, // Enable source map generation for easier debugging of compiled CSS.
     "liveSassCompile.settings.formats": [
       {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "/assets/css"
+        "format": "expanded", // Use expanded format for better readability during development.
+        "extensionName": ".css", // Standard CSS file extension.
+        "savePath": "/assets/css" // Save compiled CSS files to the specified directory.
       },
       {
-        "format": "compressed",
-        "extensionName": ".min.css",
-        "savePath": "/assets/css"
+        "format": "compressed", // Use compressed format for production to reduce file size.
+        "extensionName": ".min.css", // Minified CSS file extension.
+        "savePath": "/assets/css" // Save minified CSS files to the specified directory.
       }
     ],
 
@@ -64,8 +64,8 @@
     "git.autoRepositoryDetection": "openEditors", // Detect git repositories based on the open editors, rather than the workspace.
 
     // -- Terminal Settings
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.wordWrap": true,
+    "terminal.integrated.fontSize": 13, // Set the terminal font size for readability.
+    "terminal.integrated.wordWrap": true, // Enable word wrapping in the terminal for better visibility of long lines.
     "terminal.integrated.scrollback": 20000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
     "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable the warning when pasting multiple lines in terminal
@@ -90,11 +90,11 @@
 
     // -- Copilot Settings
     "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": true,
-        "php": true
+        "*": true, // Enable GitHub Copilot for all file types by default.
+        "plaintext": true, // Enable Copilot for plain text files.
+        "markdown": true, // Enable Copilot for Markdown files.
+        "scminput": true, // Enable Copilot for SCM input files.
+        "php": true // Enable Copilot for PHP files.
     },
 
     // -- Global look settings for Material Icon Theme
@@ -127,7 +127,8 @@
         "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
         "storage": "server" // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
-    "Devdb.colorTheme": "dark",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "typescript.inlayHints.parameterNames.enabled": "all",
+    "Devdb.colorTheme": "dark", // Set the color theme for Devdb extension to dark mode.
+    "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
+    "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
+    "php.validate.executablePath": "c:/xampp/php/php.exe", // Set the path to the PHP executable for validation.
 }
