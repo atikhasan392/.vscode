@@ -91,10 +91,10 @@
     // -- Copilot Settings
     "github.copilot.enable": {
         "*": false, // Enable or Disable GitHub Copilot for all file types by default.
-        "plaintext": true, // Enable Copilot for plain text files.
-        "markdown": true, // Enable Copilot for Markdown files.
-        "scminput": true, // Enable Copilot for SCM input files.
-        "php": true // Enable Copilot for PHP files.
+        "plaintext": false, // Enable Copilot for plain text files.
+        "markdown": false, // Enable Copilot for Markdown files.
+        "scminput": false, // Enable Copilot for SCM input files.
+        "php": false // Enable Copilot for PHP files.
     },
 
     // -- Global look settings for Material Icon Theme
