@@ -1,7 +1,6 @@
 {
     // -- File Management Settings
     "files.autoSave": "afterDelay", // Automatically save files after a brief delay.
-    "files.encoding": "utf8", // Set file encoding to UTF-8, ensuring compatibility with various systems.
     "files.trimTrailingWhitespace": true, // Automatically remove trailing whitespace from lines when saving.
     "files.insertFinalNewline": false, // Ensure that files end with a newline, useful for compatibility with some tools.
     "explorer.confirmDragAndDrop": false, // Disable confirmation prompts when dragging and dropping files in the explorer.
@@ -69,6 +68,7 @@
     "terminal.integrated.scrollback": 20000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
     "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable the warning when pasting multiple lines in terminal
+    "terminal.integrated.stickyScroll.enabled": false,
 
     // -- Theme and Icon Settings
     "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
@@ -131,4 +131,32 @@
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
     "php.validate.executablePath": "c:/xampp/php/php.exe", // Set the path to the PHP executable for validation.
+
+    // Tabby settings
+    "tabby.settings.advanced": {
+        "inlineCompletion.triggerMode": "automatic",
+        "inlineCompletion.disabledLanguages": [],
+        "inlineCompletion.showDocComment": true,
+        "inlineCompletion.delayMs": 500,
+        "chatEdit.history": 30,
+        "chatEdit.model": "Qwen2.5-Coder-14B",
+        "chatEdit.maxTokens": 4096,
+        "chatEdit.temperature": 0.3,
+        "chatEdit.topP": 0.95,
+        "chatEdit.presencePenalty": 0,
+        "chatEdit.frequencyPenalty": 0,
+        "completion.model": "Qwen2.5-Coder-14B",
+        "completion.maxTokens": 4096,
+        "completion.temperature": 0.3,
+        "completion.topP": 0.95,
+        "completion.presencePenalty": 0,
+        "completion.frequencyPenalty": 0,
+        "serverUrl": "http://localhost:8080",
+        "tabby.settings.model.device": "cuda",
+        "tabby.settings.phpValidation.executablePath": "C:/xampp/php/php.exe",
+        "cache.enable": true,
+        "cache.maxEntries": 300,
+        "logging.level": "warn",
+        "telemetry.enable": false
+    },
 }
