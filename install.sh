@@ -57,3 +57,7 @@ code --install-extension oonfrs.livewire-support # Livewire Support
 code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension codingyu.laravel-goto-view # Laravel goto view
 code --install-extension devsense.composer-php-vscode # Composer
+code --install-extension william-voyek.vscode-nginx # NGINX Configuration
+code --install-extension ahmadalli.vscode-nginx-conf # NGINX Configuration Language Support
+code --install-extension mrmlnc.vscode-apache # Apache Conf
+code --install-extension eiminsasete.apacheconf-snippets # Apache Conf Snippets
