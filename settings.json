@@ -71,7 +71,7 @@
     "terminal.integrated.stickyScroll.enabled": false,
 
     // -- Theme and Icon Settings
-    "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
+    "workbench.colorTheme": "Default Dark Modern", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
     "workbench.iconTheme": "material-icon-theme", // Use the Material Design icon theme for a modern and familiar icon style.
     "workbench.statusBar.visible": true, // Keep the status bar visible to display important information.
 
@@ -101,8 +101,8 @@
     "material-icon-theme.opacity": 1, // Sets the opacity level of icons. 1 means fully visible, 0 would be completely transparent.
     "material-icon-theme.saturation": 1, // Sets the color saturation of icons. 1 is full color, 0 would make icons grayscale.
     "material-icon-theme.folders.theme": "specific", // Chooses a specific theme style for folder icons instead of using default or generic icons.
-    "material-icon-theme.folders.color": "#42a5f5", // Assigns a custom color to all folder icons, making them visually distinct in the explorer.
-    "material-icon-theme.files.color": "#42a5f5", // Assigns a custom color to all file icons for easier identification based on file type or project style.
+    "material-icon-theme.folders.color": "#fff", // Assigns a custom color to all folder icons, making them visually distinct in the explorer.
+    "material-icon-theme.files.color": "#fff", // Assigns a custom color to all file icons for easier identification based on file type or project style.
     "material-icon-theme.hidesExplorerArrows": false, // Determines whether the small expand/collapse arrows in the explorer tree are shown. False means arrows are visible.
 
     // -- Laravel specific file associations
@@ -127,7 +127,6 @@
         "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
         "storage": "server" // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
-    "Devdb.colorTheme": "dark", // Set the color theme for Devdb extension to dark mode.
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
     "php.validate.executablePath": "c:/xampp/php/php.exe", // Set the path to the PHP executable for validation.
@@ -139,13 +138,13 @@
         "inlineCompletion.showDocComment": true,
         "inlineCompletion.delayMs": 500,
         "chatEdit.history": 30,
-        "chatEdit.model": "Qwen2.5-Coder-14B",
+        "chatEdit.model": "DeepSeekCoder-6.7B",
         "chatEdit.maxTokens": 4096,
         "chatEdit.temperature": 0.3,
         "chatEdit.topP": 0.95,
         "chatEdit.presencePenalty": 0,
         "chatEdit.frequencyPenalty": 0,
-        "completion.model": "Qwen2.5-Coder-14B",
+        "completion.model": "DeepSeekCoder-6.7B",
         "completion.maxTokens": 4096,
         "completion.temperature": 0.3,
         "completion.topP": 0.95,
