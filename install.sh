@@ -20,7 +20,6 @@ code --install-extension austenc.laravel-blade-spacer # Laravel Blade Spacer
 code --install-extension mikestead.dotenv # DotENV
 code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
 code --install-extension mohamedbenhida.laravel-intellisense # laravel intellisense
-code --install-extension damms005.devdb # DevDb
 code --install-extension pgl.laravel-jump-controller # laravel-jump-controller
 code --install-extension naoray.laravel-goto-components # laravel-goto-components
 code --install-extension bracketpaircolordlw.bracket-pair-color-dlw # Bracket Pair Color DLW
@@ -51,3 +50,10 @@ code --install-extension ms-vscode-remote.remote-wsl # WSL
 code --install-extension ms-azuretools.vscode-docker # Docker
 code --install-extension ms-azuretools.vscode-containers # Container Tools
 code --install-extension docker.docker # Docker DX
+code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
+code --install-extension cierra.livewire-vscode # Livewire Language Support
+code --install-extension lennardv.livewire-goto-updated # Livewire goto
+code --install-extension oonfrs.livewire-support # Livewire Support
+code --install-extension laravel.vscode-laravel # Laravel
+code --install-extension codingyu.laravel-goto-view # Laravel goto view
+code --install-extension devsense.composer-php-vscode # Composer
