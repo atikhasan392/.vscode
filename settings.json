@@ -125,7 +125,8 @@
         "factories": "repository", // Folder for model factories, used to generate sample data for database seeding
         "migrations": "class", // Folder for database migrations, storing instructions for creating or modifying tables
         "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
-        "storage": "server" // Folder for Laravel storage, containing logs, cache, and uploaded files
+        "storage": "server", // Folder for Laravel storage, containing logs, cache, and uploaded files
+        "livewire": "class"
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
