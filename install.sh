@@ -49,4 +49,5 @@ code --install-extension biati.vscode-show-hide-excluded-files # Show/Hide Exclu
 code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
 code --install-extension ms-vscode-remote.remote-wsl # WSL
 code --install-extension ms-azuretools.vscode-docker # Docker
+code --install-extension ms-azuretools.vscode-containers # Container Tools
 code --install-extension docker.docker # Docker DX
