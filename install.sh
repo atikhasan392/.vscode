@@ -61,3 +61,5 @@ code --install-extension william-voyek.vscode-nginx # NGINX Configuration
 code --install-extension ahmadalli.vscode-nginx-conf # NGINX Configuration Language Support
 code --install-extension mrmlnc.vscode-apache # Apache Conf
 code --install-extension eiminsasete.apacheconf-snippets # Apache Conf Snippets
+code --install-extension redis.redis-for-vscode #Redis for VS Code
+code --install-extension cweijan.vscode-redis-client # Redis
