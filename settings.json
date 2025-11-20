@@ -71,7 +71,7 @@
     "terminal.integrated.stickyScroll.enabled": false,
 
     // -- Theme and Icon Settings
-    "workbench.colorTheme": "Default Dark Modern", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)", // Set the color theme to Monokai Pro for a visually pleasing and high-contrast interface.
     "workbench.iconTheme": "material-icon-theme", // Use the Material Design icon theme for a modern and familiar icon style.
     "workbench.statusBar.visible": true, // Keep the status bar visible to display important information.
 
@@ -130,7 +130,7 @@
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
-    "php.validate.executablePath": "c:/xampp/php/php.exe", // Set the path to the PHP executable for validation.
+    "php.validate.executablePath": "c:/php/php.exe", // Set the path to the PHP executable for validation.
 
     // Tabby settings
     "tabby.settings.advanced": {
@@ -153,7 +153,7 @@
         "completion.frequencyPenalty": 0,
         "serverUrl": "http://localhost:8080",
         "tabby.settings.model.device": "cuda",
-        "tabby.settings.phpValidation.executablePath": "C:/xampp/php/php.exe",
+        "tabby.settings.phpValidation.executablePath": "c:/php/php.exe",
         "cache.enable": true,
         "cache.maxEntries": 300,
         "logging.level": "warn",
