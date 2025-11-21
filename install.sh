@@ -63,3 +63,6 @@ code --install-extension mrmlnc.vscode-apache # Apache Conf
 code --install-extension eiminsasete.apacheconf-snippets # Apache Conf Snippets
 code --install-extension redis.redis-for-vscode #Redis for VS Code
 code --install-extension cweijan.vscode-redis-client # Redis
+code --install-extension vunguyentuan.vscode-postcss # PostCSS Intellisense and Highlighting
+code --install-extension csstools.postcss # PostCSS Language Support
+code --install-extension humao.rest-client # REST Client
