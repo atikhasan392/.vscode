@@ -44,7 +44,6 @@ code --install-extension tabbyml.vscode-tabby # Tabby
 code --install-extension astro-build.astro-vscode # Astro
 code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
 code --install-extension github.vscode-github-actions # GitHub Actions
-code --install-extension biati.vscode-show-hide-excluded-files # Show/Hide Excluded Files
 code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
 code --install-extension ms-vscode-remote.remote-wsl # WSL
 code --install-extension ms-azuretools.vscode-docker # Docker
@@ -64,5 +63,4 @@ code --install-extension eiminsasete.apacheconf-snippets # Apache Conf Snippets
 code --install-extension redis.redis-for-vscode #Redis for VS Code
 code --install-extension cweijan.vscode-redis-client # Redis
 code --install-extension vunguyentuan.vscode-postcss # PostCSS Intellisense and Highlighting
-code --install-extension csstools.postcss # PostCSS Language Support
 code --install-extension humao.rest-client # REST Client
