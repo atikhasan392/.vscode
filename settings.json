@@ -18,16 +18,16 @@
     "less.validate": false, // Disable built-in LESS validation
     "liveSassCompile.settings.generateMap": true, // Enable source map generation for easier debugging of compiled CSS.
     "liveSassCompile.settings.formats": [
-      {
-        "format": "expanded", // Use expanded format for better readability during development.
-        "extensionName": ".css", // Standard CSS file extension.
-        "savePath": "/assets/css" // Save compiled CSS files to the specified directory.
-      },
-      {
-        "format": "compressed", // Use compressed format for production to reduce file size.
-        "extensionName": ".min.css", // Minified CSS file extension.
-        "savePath": "/assets/css" // Save minified CSS files to the specified directory.
-      }
+        {
+            "format": "expanded", // Use expanded format for better readability during development.
+            "extensionName": ".css", // Standard CSS file extension.
+            "savePath": "/assets/css" // Save compiled CSS files to the specified directory.
+        },
+        {
+            "format": "compressed", // Use compressed format for production to reduce file size.
+            "extensionName": ".min.css", // Minified CSS file extension.
+            "savePath": "/assets/css" // Save minified CSS files to the specified directory.
+        }
     ],
 
     // -- Editor Appearance Settings
