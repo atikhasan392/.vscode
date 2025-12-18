@@ -16,19 +16,6 @@
     "css.validate": false, // Disable built-in CSS validation
     "scss.validate": false, // Disable built-in SCSS validation
     "less.validate": false, // Disable built-in LESS validation
-    "liveSassCompile.settings.generateMap": true, // Enable source map generation for easier debugging of compiled CSS.
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded", // Use expanded format for better readability during development.
-            "extensionName": ".css", // Standard CSS file extension.
-            "savePath": "/assets/css" // Save compiled CSS files to the specified directory.
-        },
-        {
-            "format": "compressed", // Use compressed format for production to reduce file size.
-            "extensionName": ".min.css", // Minified CSS file extension.
-            "savePath": "/assets/css" // Save minified CSS files to the specified directory.
-        }
-    ],
 
     // -- Editor Appearance Settings
     "editor.detectIndentation": false, // Disable auto-detection of indentation for better control over indentation.
@@ -126,37 +113,36 @@
         "migrations": "class", // Folder for database migrations, storing instructions for creating or modifying tables
         "framework": "php", // Folder for Laravel framework core files, essential for the system's internal operations
         "storage": "server", // Folder for Laravel storage, containing logs, cache, and uploaded files
-        "livewire": "class"
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
     "php.validate.executablePath": "C:/Program Files/php/php.exe", // Set the path to the PHP executable for validation.
 
     // Tabby settings
-    "tabby.settings.advanced": {
-        "inlineCompletion.triggerMode": "automatic",
-        "inlineCompletion.disabledLanguages": [],
-        "inlineCompletion.showDocComment": true,
-        "inlineCompletion.delayMs": 500,
-        "chatEdit.history": 30,
-        "chatEdit.model": "DeepSeekCoder-6.7B",
-        "chatEdit.maxTokens": 4096,
-        "chatEdit.temperature": 0.3,
-        "chatEdit.topP": 0.95,
-        "chatEdit.presencePenalty": 0,
-        "chatEdit.frequencyPenalty": 0,
-        "completion.model": "DeepSeekCoder-6.7B",
-        "completion.maxTokens": 4096,
-        "completion.temperature": 0.3,
-        "completion.topP": 0.95,
-        "completion.presencePenalty": 0,
-        "completion.frequencyPenalty": 0,
-        "serverUrl": "http://localhost:8080",
-        "tabby.settings.model.device": "cuda",
-        "tabby.settings.phpValidation.executablePath": "C:/Program Files/php/php.exe",
-        "cache.enable": true,
-        "cache.maxEntries": 300,
-        "logging.level": "warn",
-        "telemetry.enable": false
-    },
+    // "tabby.settings.advanced": {
+    //     "inlineCompletion.triggerMode": "automatic",
+    //     "inlineCompletion.disabledLanguages": [],
+    //     "inlineCompletion.showDocComment": true,
+    //     "inlineCompletion.delayMs": 500,
+    //     "chatEdit.history": 30,
+    //     "chatEdit.model": "DeepSeekCoder-6.7B",
+    //     "chatEdit.maxTokens": 4096,
+    //     "chatEdit.temperature": 0.3,
+    //     "chatEdit.topP": 0.95,
+    //     "chatEdit.presencePenalty": 0,
+    //     "chatEdit.frequencyPenalty": 0,
+    //     "completion.model": "DeepSeekCoder-6.7B",
+    //     "completion.maxTokens": 4096,
+    //     "completion.temperature": 0.3,
+    //     "completion.topP": 0.95,
+    //     "completion.presencePenalty": 0,
+    //     "completion.frequencyPenalty": 0,
+    //     "serverUrl": "http://localhost:8080",
+    //     "tabby.settings.model.device": "cuda",
+    //     "tabby.settings.phpValidation.executablePath": "C:/Program Files/php/php.exe",
+    //     "cache.enable": true,
+    //     "cache.maxEntries": 300,
+    //     "logging.level": "warn",
+    //     "telemetry.enable": false
+    // },
 }
