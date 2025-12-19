@@ -116,7 +116,7 @@
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
-    "php.validate.executablePath": "C:/Program Files/php/php.exe", // Set the path to the PHP executable for validation.
+    "php.validate.executablePath": "/usr/bin/php", // Set the path to the PHP executable for validation.
 
     // Tabby settings
     // "tabby.settings.advanced": {
@@ -131,15 +131,15 @@
     //     "chatEdit.topP": 0.95,
     //     "chatEdit.presencePenalty": 0,
     //     "chatEdit.frequencyPenalty": 0,
-    //     "completion.model": "DeepSeekCoder-6.7B",
+    //     "completion.model": "StarCoder-7B", // DeepSeekCoder-6.7B
     //     "completion.maxTokens": 4096,
     //     "completion.temperature": 0.3,
     //     "completion.topP": 0.95,
     //     "completion.presencePenalty": 0,
     //     "completion.frequencyPenalty": 0,
-    //     "serverUrl": "http://localhost:8080",
+    //     "serverUrl": "http://localhost:9000",
     //     "tabby.settings.model.device": "cuda",
-    //     "tabby.settings.phpValidation.executablePath": "C:/Program Files/php/php.exe",
+    //     "tabby.settings.phpValidation.executablePath": "/usr/bin/php",
     //     "cache.enable": true,
     //     "cache.maxEntries": 300,
     //     "logging.level": "warn",
