@@ -125,7 +125,7 @@
     //     "inlineCompletion.showDocComment": true,
     //     "inlineCompletion.delayMs": 500,
     //     "chatEdit.history": 30,
-    //     "chatEdit.model": "DeepSeekCoder-6.7B",
+    //     "chatEdit.model": "Qwen2-1.5B-Instruct",
     //     "chatEdit.maxTokens": 4096,
     //     "chatEdit.temperature": 0.3,
     //     "chatEdit.topP": 0.95,
