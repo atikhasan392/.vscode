@@ -37,4 +37,5 @@ code --install-extension ms-vscode-remote.remote-wsl # WSL
 code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
 code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension devsense.composer-php-vscode # Composer
+code --install-extension tamasfe.even-better-toml # Even Better TOML
 code --install-extension tabbyml.vscode-tabby # Tabby
