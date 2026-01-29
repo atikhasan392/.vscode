@@ -32,7 +32,6 @@ code --install-extension xdebug.php-debug # PHP Debug
 code --install-extension simonsiefke.svg-preview # Svg Preview
 code --install-extension astro-build.astro-vscode # Astro
 code --install-extension pcbowers.alpine-intellisense # Alpine.js IntelliSense
-code --install-extension github.vscode-github-actions # GitHub Actions
 code --install-extension ms-vscode-remote.remote-wsl # WSL
 code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js IntelliSense
 code --install-extension laravel.vscode-laravel # Laravel
