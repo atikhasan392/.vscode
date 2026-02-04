@@ -37,5 +37,4 @@ code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js Int
 code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension devsense.composer-php-vscode # Composer
 code --install-extension tamasfe.even-better-toml # Even Better TOML
-code --install-extension 0xtanzim.filetree-pro # FileTree Pro
 code --install-extension tabbyml.vscode-tabby # Tabby
