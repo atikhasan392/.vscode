@@ -38,7 +38,6 @@ code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension devsense.composer-php-vscode # Composer
 code --install-extension muath-ye.composer-intelephense # Composer Intelephense
 code --install-extension tamasfe.even-better-toml # Even Better TOML
-code --install-extension tabbyml.vscode-tabby # Tabby
 code --install-extension zobo.php-intellisense # PHP IntelliSense
 code --install-extension cierra.livewire-vscode # Livewire Language Support
 code --install-extension lennardv.livewire-goto-updated # Livewire goto
@@ -47,3 +46,6 @@ code --install-extension shufo.vscode-blade-formatter # Laravel Blade formatter
 code --install-extension ryannaddy.laravel-artisan # Laravel Artisan
 code --install-extension amiralizadeh9480.laravel-extra-intellisense # Laravel Extra Intellisense
 code --install-extension codingyu.laravel-goto-view # Laravel goto view
+code --install-extension juniorpeixoto.vscode-filamentphp-helpers # Filament PHP Helpers
+code --install-extension esbenp.prettier-vscode # Prettier - Code formatter
+# code --install-extension tabbyml.vscode-tabby # Tabby
