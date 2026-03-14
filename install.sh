@@ -48,4 +48,5 @@ code --install-extension amiralizadeh9480.laravel-extra-intellisense # Laravel E
 code --install-extension codingyu.laravel-goto-view # Laravel goto view
 code --install-extension juniorpeixoto.vscode-filamentphp-helpers # Filament PHP Helpers
 code --install-extension esbenp.prettier-vscode # Prettier - Code formatter
+code --install-extension openai.chatgpt # Codex – OpenAI’s coding agent
 # code --install-extension tabbyml.vscode-tabby # Tabby
