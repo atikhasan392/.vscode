@@ -50,3 +50,4 @@ code --install-extension juniorpeixoto.vscode-filamentphp-helpers # Filament PHP
 code --install-extension esbenp.prettier-vscode # Prettier - Code formatter
 code --install-extension openai.chatgpt # Codex – OpenAI’s coding agent
 code --install-extension continue.continue # Continue - open-source AI code agent
+code --install-extension devsense.phptools-vscode # PHP
