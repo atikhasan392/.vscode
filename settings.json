@@ -115,6 +115,5 @@
         "storage": "server", // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
-    "typescript.inlayHints.parameterNames.enabled": "all", // Enable inlay hints for all parameter names in TypeScript files.
     "php.validate.executablePath": "/usr/bin/php", // Set the path to the PHP executable for validation.
 }
