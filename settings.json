@@ -115,5 +115,5 @@
         "storage": "server", // Folder for Laravel storage, containing logs, cache, and uploaded files
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
-    "php.validate.executablePath": "/usr/bin/php", // Set the path to the PHP executable for validation.
+    "php.validate.executablePath": "/usr/bin/php8.5", // Set the path to the PHP executable for validation.
 }
