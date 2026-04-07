@@ -51,7 +51,6 @@
 
     // -- Terminal Settings
     "terminal.integrated.fontSize": 13, // Set the terminal font size for readability.
-    "terminal.integrated.wordWrap": true, // Enable word wrapping in the terminal for better visibility of long lines.
     "terminal.integrated.scrollback": 20000, // Increase the scrollback buffer in the terminal to store more output.
     "terminal.integrated.defaultProfile.windows": "Command Prompt", // Set Command Prompt as the default terminal profile on Windows.
     "terminal.integrated.enableMultiLinePasteWarning": "never", // Disable the warning when pasting multiple lines in terminal
