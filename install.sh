@@ -6,17 +6,15 @@ code --install-extension formulahendry.auto-close-tag # Auto Close Tag
 code --install-extension formulahendry.auto-rename-tag # Auto Rename Tag
 code --install-extension aaron-bond.better-comments # Better Comments
 code --install-extension dbaeumer.vscode-eslint # ESLint
-code --install-extension github.codespaces # GitHub Codespaces
 code --install-extension pkief.material-icon-theme # Material Icon Theme
 code --install-extension monokai.theme-monokai-pro-vscode # Monokai Pro
-code --install-extension bmewburn.vscode-intelephense-client # PHP Intelephense
 code --install-extension onecentlin.laravel-blade # Laravel Blade Snippets
 code --install-extension absszero.vscode-laravel-goto # Laravel Goto
 code --install-extension austenc.laravel-blade-spacer # Laravel Blade Spacer
 code --install-extension mikestead.dotenv # DotENV
 code --install-extension onecentlin.laravel5-snippets # Laravel Snippets
 code --install-extension mohamedbenhida.laravel-intellisense # laravel intellisense
-code --install-extension pgl.laravel-jump-controller # laravel-jump-controller
+code --install-extension davidanson.vscode-markdownlint # markdownlint
 code --install-extension naoray.laravel-goto-components # laravel-goto-components
 code --install-extension bracketpaircolordlw.bracket-pair-color-dlw # Bracket Pair Color DLW
 code --install-extension christian-kohler.path-intellisense # Path Intellisense
