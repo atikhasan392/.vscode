@@ -39,6 +39,7 @@ code --install-extension tamasfe.even-better-toml # Even Better TOML
 code --install-extension zobo.php-intellisense # PHP IntelliSense
 code --install-extension cierra.livewire-vscode # Livewire Language Support
 code --install-extension ganyicz.livewire-sfc-support # Livewire SFC / Volt support
+code --install-extension lennardv.livewire-goto-updated # Livewire goto
 code --install-extension amiralizadeh9480.laravel-extra-intellisense # Laravel Extra Intellisense
 code --install-extension codingyu.laravel-goto-view # Laravel goto view
 code --install-extension juniorpeixoto.vscode-filamentphp-helpers # Filament PHP Helpers
@@ -47,3 +48,5 @@ code --install-extension openai.chatgpt # Codex – OpenAI’s coding agent
 code --install-extension continue.continue # Continue - open-source AI code agent
 code --install-extension devsense.phptools-vscode # PHP
 code --install-extension google.gemini-cli-vscode-ide-companion # Gemini CLI Companion
+code --install-extension christian-kohler.npm-intellisense # npm Intellisense
+code --install-extension oven.bun-vscode # Bun for Visual Studio Code
