@@ -50,4 +50,3 @@ code --install-extension devsense.phptools-vscode # PHP
 code --install-extension google.gemini-cli-vscode-ide-companion # Gemini CLI Companion
 code --install-extension christian-kohler.npm-intellisense # npm Intellisense
 code --install-extension oven.bun-vscode # Bun for Visual Studio Code
-code --install-extension bruno-api-client.brun # Bruno
