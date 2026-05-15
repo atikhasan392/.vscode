@@ -36,7 +36,6 @@ code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension devsense.composer-php-vscode # Composer
 code --install-extension muath-ye.composer-intelephense # Composer Intelephense
 code --install-extension tamasfe.even-better-toml # Even Better TOML
-code --install-extension zobo.php-intellisense # PHP IntelliSense
 code --install-extension cierra.livewire-vscode # Livewire Language Support
 code --install-extension ganyicz.livewire-sfc-support # Livewire SFC / Volt support
 code --install-extension lennardv.livewire-goto-updated # Livewire goto
