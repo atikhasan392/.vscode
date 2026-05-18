@@ -44,8 +44,6 @@ code --install-extension codingyu.laravel-goto-view # Laravel goto view
 code --install-extension juniorpeixoto.vscode-filamentphp-helpers # Filament PHP Helpers
 code --install-extension esbenp.prettier-vscode # Prettier - Code formatter
 code --install-extension openai.chatgpt # Codex – OpenAI’s coding agent
-code --install-extension continue.continue # Continue - open-source AI code agent
-code --install-extension devsense.phptools-vscode # PHP
 code --install-extension google.gemini-cli-vscode-ide-companion # Gemini CLI Companion
 code --install-extension christian-kohler.npm-intellisense # npm Intellisense
 code --install-extension oven.bun-vscode # Bun for Visual Studio Code
