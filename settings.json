@@ -115,4 +115,6 @@
     },
     "liveServer.settings.donotShowInfoMsg": true, // Disable info messages from Live Server extension.
     "php.validate.executablePath": "/usr/bin/php8.5", // Set the path to the PHP executable for validation.
+
+    "security.allowedUNCHosts": ["wsl.localhost"],
 }
