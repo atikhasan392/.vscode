@@ -20,7 +20,6 @@ code --install-extension bracketpaircolordlw.bracket-pair-color-dlw # Bracket Pa
 code --install-extension christian-kohler.path-intellisense # Path Intellisense
 code --install-extension shardulm94.trailing-spaces # Trailing Spaces
 code --install-extension katsute.code-background # Background
-code --install-extension github.copilot # GitHub Copilot
 code --install-extension bradlc.vscode-tailwindcss # Tailwind CSS IntelliSense
 code --install-extension joy-yu.css-snippets # CSS Snippets
 code --install-extension zignd.html-css-class-completion # IntelliSense for CSS class names in HTML
@@ -35,7 +34,6 @@ code --install-extension adrianwilczynski.alpine-js-intellisense # Alpine.js Int
 code --install-extension laravel.vscode-laravel # Laravel
 code --install-extension devsense.composer-php-vscode # Composer
 code --install-extension muath-ye.composer-intelephense # Composer Intelephense
-code --install-extension tamasfe.even-better-toml # Even Better TOML
 code --install-extension cierra.livewire-vscode # Livewire Language Support
 code --install-extension ganyicz.livewire-sfc-support # Livewire SFC / Volt support
 code --install-extension lennardv.livewire-goto-updated # Livewire goto
@@ -46,4 +44,5 @@ code --install-extension esbenp.prettier-vscode # Prettier - Code formatter
 code --install-extension openai.chatgpt # Codex – OpenAI’s coding agent
 code --install-extension google.gemini-cli-vscode-ide-companion # Gemini CLI Companion
 code --install-extension christian-kohler.npm-intellisense # npm Intellisense
+code --install-extension omouta.terminal-npm-intellisense # Terminal NPM IntelliSense
 code --install-extension oven.bun-vscode # Bun for Visual Studio Code
