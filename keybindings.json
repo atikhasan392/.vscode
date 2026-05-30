@@ -1,9 +1,16 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaults.
 [
+    // -------------------------------------------------------------------------
+    // Workbench
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+r",
         "command": "workbench.action.openRecent"
     },
+
+    // -------------------------------------------------------------------------
+    // GitHub Copilot
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+8",
         "command": "github.copilot.generate",
@@ -14,6 +21,10 @@
         "command": "-github.copilot.generate",
         "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused"
     },
+
+    // -------------------------------------------------------------------------
+    // Continue
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+shift+l",
         "command": "-continue.focusContinueInputWithoutClear"
