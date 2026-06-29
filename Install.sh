@@ -61,6 +61,9 @@ code --install-extension oven.bun-vscode                             # Bun for V
 code --install-extension xdebug.php-debug                            # PHP Debug
 code --install-extension devsense.composer-php-vscode                # Composer
 code --install-extension muath-ye.composer-intelephense              # Composer Intelephense
+code --install-extension devsense.phptools-vscode                    # PHP
+code --install-extension devsense.intelli-php-vscode                 # IntelliPHP - AI Suggestions for PHP
+code --install-extension rifi2k.format-html-in-php                   # Format HTML in PHP
 
 
 # -----------------------------------------------------------------------------
@@ -127,8 +130,6 @@ code --install-extension ritwickdey.LiveServer                       # Live Serv
 # AI Assistants
 # -----------------------------------------------------------------------------
 code --install-extension ollama.ollama                               # Ollama
-# code --install-extension openai.chatgpt                            # Codex — OpenAI Coding Agent
-# code --install-extension google.gemini-cli-vscode-ide-companion    # Gemini CLI Companion
 
 
 # =============================================================================
