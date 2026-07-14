@@ -167,5 +167,13 @@
     // -------------------------------------------------------------------------
     // PHP
     // -------------------------------------------------------------------------
-    "php.validate.executablePath": "/usr/bin/php8.5"
+    "php.validate.executablePath": "/usr/bin/php8.5",
+
+    // -------------------------------------------------------------------------
+    // BROWSER SETTINGS
+    // -------------------------------------------------------------------------
+    "workbench.browser.searchEngine": "none",
+    "workbench.browser.openLocalhostLinks": false,
+    "workbench.browser.sendElementsToChat.attachImages": false,
+    "workbench.browser.enableChatTools": false
 }
