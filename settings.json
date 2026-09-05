@@ -102,61 +102,27 @@
     // BACKGROUND IMAGES (vscode-background extension)
     // -------------------------------------------------------------------------
     "background.autoInstall": true,
-    "background.editorBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"
-    ],
-    "background.sidebarBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg"
-    ],
-    "background.panelBackgrounds": [
-        "https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg"
-    ],
+    "background.editorBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"],
+    "background.sidebarBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg"],
+    "background.panelBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg"],
 
     // -------------------------------------------------------------------------
     // EDITOR DEFAULT FORMATTET
     // -------------------------------------------------------------------------
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[less]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[blade]": {
-        "editor.defaultFormatter": "onecentlin.laravel-blade"
-    },
+    "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[blade]": { "editor.defaultFormatter": "onecentlin.laravel-blade" },
 
     // -------------------------------------------------------------------------
     // GITHUB COPILOT
