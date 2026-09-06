@@ -29,6 +29,14 @@ code --install-extension shardulm94.trailing-spaces                  # Trailing 
 code --install-extension christian-kohler.path-intellisense          # Path Intellisense
 code --install-extension simonsiefke.svg-preview                     # SVG Preview
 code --install-extension esbenp.prettier-vscode                      # Prettier — Code Formatter
+code --install-extension streetsidesoftware.code-spell-checker       # Code Spell Checker
+
+
+# -----------------------------------------------------------------------------
+# Version Control CI/CD
+# -----------------------------------------------------------------------------
+code --install-extension gitlab.gitlab-workflow                      # GitLab
+code --install-extension github.vscode-github-actions                # GitHub Actions
 
 
 # -----------------------------------------------------------------------------
