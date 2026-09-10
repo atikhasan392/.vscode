@@ -4,7 +4,7 @@
     // -------------------------------------------------------------------------
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": false,
+    "files.insertFinalNewline": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
 
@@ -30,18 +30,21 @@
     // -------------------------------------------------------------------------
     "php.validate.enable": true,
     "php.validate.executablePath": "/usr/bin/php",
+
+    // -------------------------------------------------------------------------
+    // PHP INTELEPHENSE
+    // -------------------------------------------------------------------------
     "intelephense.environment.phpVersion": "8.5",
+    "intelephense.format.enable": true,
     "intelephense.files.exclude": [
         "**/.git/**",
         "**/.idea/**",
         "**/.vscode/**",
         "**/node_modules/**",
-        "**/vendor/**",
         "**/storage/framework/**",
         "**/storage/logs/**",
         "**/bootstrap/cache/**"
     ],
-    "intelephense.format.enable": true,
 
     // -------------------------------------------------------------------------
     // EDITOR APPEARANCE & BEHAVIOUR
