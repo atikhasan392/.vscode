@@ -67,6 +67,7 @@ code --install-extension oven.bun-vscode                             # Bun for V
 # PHP
 # -----------------------------------------------------------------------------
 code --install-extension xdebug.php-debug                            # PHP Debug
+code --install-extension bmewburn.vscode-intelephense-client         # PHP Intelephense
 code --install-extension devsense.composer-php-vscode                # Composer
 code --install-extension muath-ye.composer-intelephense              # Composer Intelephense
 code --install-extension devsense.phptools-vscode                    # PHP
