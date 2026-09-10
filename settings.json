@@ -26,6 +26,24 @@
     "less.validate": false,
 
     // -------------------------------------------------------------------------
+    // PHP / PHP Intelephense
+    // -------------------------------------------------------------------------
+    "php.validate.enable": true,
+    "php.validate.executablePath": "/usr/bin/php",
+    "intelephense.environment.phpVersion": "8.5",
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.idea/**",
+        "**/.vscode/**",
+        "**/node_modules/**",
+        "**/vendor/**",
+        "**/storage/framework/**",
+        "**/storage/logs/**",
+        "**/bootstrap/cache/**"
+    ],
+    "intelephense.format.enable": true,
+
+    // -------------------------------------------------------------------------
     // EDITOR APPEARANCE & BEHAVIOUR
     // -------------------------------------------------------------------------
     "editor.detectIndentation": false,
@@ -56,7 +74,10 @@
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.emptyWindow": false,
     "security.workspace.trust.enabled": false,
-    "security.allowedUNCHosts": ["wsl.localhost"],
+    "security.allowedUNCHosts": [
+        "wsl.localhost",
+        "wsl$"
+    ],
 
     // -------------------------------------------------------------------------
     // HTML FORMATTING
