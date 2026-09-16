@@ -35,8 +35,8 @@ code --install-extension streetsidesoftware.code-spell-checker          # Code S
 # --------------------------------------------------------------------------------
 # Version Control CI/CD
 # --------------------------------------------------------------------------------
-code --install-extension gitlab.gitlab-workflow                         # GitLab
-code --install-extension github.vscode-github-actions                   # GitHub Actions
+# code --install-extension gitlab.gitlab-workflow                         # GitLab
+# code --install-extension github.vscode-github-actions                   # GitHub Actions
 
 
 # --------------------------------------------------------------------------------
