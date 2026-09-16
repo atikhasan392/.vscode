@@ -132,14 +132,24 @@ code --install-extension ms-vscode-remote.remote-wsl                 # WSL
 # -----------------------------------------------------------------------------
 # Development Server
 # -----------------------------------------------------------------------------
-code --install-extension ritwickdey.LiveServer                       # Live Server
+code --install-extension ritwickdey.LiveServer                         # Live Server
 
 
 # -----------------------------------------------------------------------------
 # AI Assistants
 # -----------------------------------------------------------------------------
-code --install-extension ollama.ollama                               # Ollama
+code --install-extension ollama.ollama                                 # Ollama
 
+# -----------------------------------------------------------------------------
+# MCP Servers
+# -----------------------------------------------------------------------------
+code --install-extension io.github.ChromeDevTools/chrome-devtools-mcp   # Chrome DevTools MCP
+code --install-extension io.github.github/github-mcp-server             # GitHub
+code --install-extension com.microsoft/azure                            # Azure MCP Server
+code --install-extension com.microsoft/microsoft-fabric                 # Microsoft Fabric MCP Server
+code --install-extension io.github.bytebase/dbhub                       # DBHub
+code --install-extension com.postman/postman-mcp-server                 # Postman MCP Server
+code --install-extension huggingface/hf-mcp-server                      # Hugging Face
 
 # =============================================================================
 # Installation complete.
