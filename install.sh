@@ -30,13 +30,13 @@ code --install-extension christian-kohler.path-intellisense             # Path I
 code --install-extension simonsiefke.svg-preview                        # SVG Preview
 code --install-extension esbenp.prettier-vscode                         # Prettier — Code Formatter
 code --install-extension streetsidesoftware.code-spell-checker          # Code Spell Checker
-
+code --install-extension redhat.vscode-yaml                             # YAML
 
 # --------------------------------------------------------------------------------
 # Version Control CI/CD
 # --------------------------------------------------------------------------------
-# code --install-extension gitlab.gitlab-workflow                         # GitLab
-# code --install-extension github.vscode-github-actions                   # GitHub Actions
+code --install-extension gitlab.gitlab-workflow                         # GitLab
+code --install-extension github.vscode-github-actions                   # GitHub Actions
 
 
 # --------------------------------------------------------------------------------
