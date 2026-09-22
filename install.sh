@@ -104,6 +104,7 @@ code --install-extension lennardv.livewire-goto-updated                 # Livewi
 code --install-extension juniorpeixoto.vscode-filamentphp-helpers       # Filament PHP Helpers
 code --install-extension alperenersoy.filament-snippets                 # Filament Snippets
 
+
 # --------------------------------------------------------------------------------
 # Alpine.js
 # --------------------------------------------------------------------------------
@@ -140,6 +141,7 @@ code --install-extension ritwickdey.LiveServer                          # Live S
 # AI Assistants
 # --------------------------------------------------------------------------------
 code --install-extension ollama.ollama                                  # Ollama
+code --install-extension openai.chatgpt                                 # Codex – OpenAI’s coding agent
 
 
 # --------------------------------------------------------------------------------
@@ -152,6 +154,7 @@ code --install-extension com.microsoft/microsoft-fabric                 # Micros
 code --install-extension io.github.bytebase/dbhub                       # DBHub
 code --install-extension com.postman/postman-mcp-server                 # Postman MCP Server
 code --install-extension huggingface/hf-mcp-server                      # Hugging Face
+
 
 # ================================================================================
 # Installation complete.
