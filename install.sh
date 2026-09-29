@@ -119,6 +119,13 @@ code --install-extension astro-build.astro-vscode                       # Astro
 
 
 # --------------------------------------------------------------------------------
+# Database
+# --------------------------------------------------------------------------------
+code --install-extension jakebathman.mysql-syntax                       # MySQL Syntax
+code --install-extension redis.redis-for-vscode                         # Redis for VS Code
+
+
+# --------------------------------------------------------------------------------
 # Environment & Configuration
 # --------------------------------------------------------------------------------
 code --install-extension mikestead.dotenv                               # DotENV
