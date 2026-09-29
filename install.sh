@@ -32,6 +32,7 @@ code --install-extension esbenp.prettier-vscode                         # Pretti
 code --install-extension streetsidesoftware.code-spell-checker          # Code Spell Checker
 code --install-extension redhat.vscode-yaml                             # YAML
 
+
 # --------------------------------------------------------------------------------
 # Version Control CI/CD
 # --------------------------------------------------------------------------------
