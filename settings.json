@@ -34,6 +34,7 @@
     // -------------------------------------------------------------------------
     // PHP INTELEPHENSE
     // -------------------------------------------------------------------------
+    "php.version": "8.5",
     "intelephense.environment.phpVersion": "8.5",
     "intelephense.format.enable": true,
     "intelephense.files.exclude": [
