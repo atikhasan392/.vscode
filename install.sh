@@ -30,13 +30,13 @@ code --install-extension christian-kohler.path-intellisense             # Path I
 code --install-extension simonsiefke.svg-preview                        # SVG Preview
 code --install-extension esbenp.prettier-vscode                         # Prettier — Code Formatter
 code --install-extension redhat.vscode-yaml                             # YAML
+code --install-extension ms-vscode.notepadplusplus-keybindings          # Notepad++ keymap
 
 
 # --------------------------------------------------------------------------------
 # Version Control CI/CD
 # --------------------------------------------------------------------------------
 code --install-extension gitlab.gitlab-workflow                         # GitLab
-code --install-extension github.vscode-github-actions                   # GitHub Actions
 
 
 # --------------------------------------------------------------------------------
