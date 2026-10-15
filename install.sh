@@ -29,7 +29,6 @@ code --install-extension shardulm94.trailing-spaces                     # Traili
 code --install-extension christian-kohler.path-intellisense             # Path Intellisense
 code --install-extension simonsiefke.svg-preview                        # SVG Preview
 code --install-extension esbenp.prettier-vscode                         # Prettier — Code Formatter
-code --install-extension streetsidesoftware.code-spell-checker          # Code Spell Checker
 code --install-extension redhat.vscode-yaml                             # YAML
 
 
