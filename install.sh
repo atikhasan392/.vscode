@@ -1,24 +1,24 @@
 #!/bin/bash
 
-# ================================================================================
+# ====================================================================================================
 # VS Code Extension OR MCP Tools Installer
-# ================================================================================
+# ====================================================================================================
 # Run this script to install all required VS Code extensions at once.
 # Usage: bash install.sh
-# ================================================================================
+# ====================================================================================================
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Workbench — Theme & Icons
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension monokai.theme-monokai-pro-vscode                # Monokai Pro
 code --install-extension pkief.material-icon-theme                       # Material Icon Theme
 code --install-extension katsute.code-background                         # Background
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Editor Utilities
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension vincaslt.highlight-matching-tag                # Highlight Matching Tag
 code --install-extension naumovs.color-highlight                        # Color Highlight
 code --install-extension formulahendry.auto-close-tag                   # Auto Close Tag
@@ -31,41 +31,43 @@ code --install-extension simonsiefke.svg-preview                        # SVG Pr
 code --install-extension esbenp.prettier-vscode                         # Prettier — Code Formatter
 code --install-extension redhat.vscode-yaml                             # YAML
 code --install-extension ms-vscode.notepadplusplus-keybindings          # Notepad++ keymap
+code --install-extension editorconfig.editorconfig                      # EditorConfig
+code --install-extension dotjoshjohnson.xml                             # XML Tools
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Version Control CI/CD
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension gitlab.gitlab-workflow                         # GitLab
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # HTML & CSS
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension anteprimorac.html-end-tag-labels               # HTML End Tag Labels
 code --install-extension solnurkarim.html-to-css-autocompletion         # HTML to CSS Autocompletion
 code --install-extension zignd.html-css-class-completion                # IntelliSense for CSS Class Names in HTML
 code --install-extension joy-yu.css-snippets                            # CSS Snippets
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Tailwind CSS
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension bradlc.vscode-tailwindcss                      # Tailwind CSS IntelliSense
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # JavaScript & Node.js
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension dbaeumer.vscode-eslint                         # ESLint
 code --install-extension christian-kohler.npm-intellisense              # npm Intellisense
 code --install-extension omouta.terminal-npm-intellisense               # Terminal NPM IntelliSense
 code --install-extension oven.bun-vscode                                # Bun for Visual Studio Code
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # PHP
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension xdebug.php-debug                               # PHP Debug
 code --install-extension bmewburn.vscode-intelephense-client            # PHP Intelephense
 code --install-extension devsense.composer-php-vscode                   # Composer
@@ -75,9 +77,9 @@ code --install-extension devsense.intelli-php-vscode                    # Intell
 code --install-extension rifi2k.format-html-in-php                      # Format HTML in PHP
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Laravel
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension laravel.vscode-laravel                         # Laravel (official)
 code --install-extension onecentlin.laravel-blade                       # Laravel Blade Snippets
 code --install-extension onecentlin.laravel5-snippets                   # Laravel Snippets
@@ -90,32 +92,38 @@ code --install-extension amiralizadeh9480.laravel-extra-intellisense    # Larave
 code --install-extension shufo.vscode-blade-formatter                   # Laravel Blade formatter
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Livewire
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension cierra.livewire-vscode                         # Livewire Language Support
 code --install-extension ganyicz.livewire-sfc-support                   # Livewire SFC / Volt Support
 code --install-extension lennardv.livewire-goto-updated                 # Livewire Goto
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Filament
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension juniorpeixoto.vscode-filamentphp-helpers       # Filament PHP Helpers
 code --install-extension alperenersoy.filament-snippets                 # Filament Snippets
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Alpine.js
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension pcbowers.alpine-intellisense                   # Alpine.js IntelliSense
 code --install-extension adrianwilczynski.alpine-js-intellisense        # Alpine.js IntelliSense (alternative)
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Astro
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension astro-build.astro-vscode                       # Astro
+
+
+# ----------------------------------------------------------------------------------------------------
+# .NET
+# ----------------------------------------------------------------------------------------------------
+code --install-extension ms-dotnettools.vscode-dotnet-runtime           # .NET Install Tool
 
 
 # --------------------------------------------------------------------------------
@@ -125,45 +133,41 @@ code --install-extension jakebathman.mysql-syntax                       # MySQL 
 code --install-extension redis.redis-for-vscode                         # Redis for VS Code
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Environment & Configuration
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension mikestead.dotenv                               # DotENV
 code --install-extension davidanson.vscode-markdownlint                 # Markdownlint
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Remote Development
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension ms-vscode-remote.remote-wsl                    # WSL
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # Development Server
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension ritwickdey.LiveServer                          # Live Server
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # AI Assistants
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension ollama.ollama                                  # Ollama
 code --install-extension openai.chatgpt                                 # Codex – OpenAI’s coding agent
-code --install-extension google.google-antigravity                      # Google Antigravity
 
 
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 # MCP Servers
-# --------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------
 code --install-extension io.github.ChromeDevTools/chrome-devtools-mcp   # Chrome DevTools MCP
 code --install-extension io.github.github/github-mcp-server             # GitHub
-code --install-extension com.microsoft/azure                            # Azure MCP Server
-code --install-extension com.microsoft/microsoft-fabric                 # Microsoft Fabric MCP Server
 code --install-extension io.github.bytebase/dbhub                       # DBHub
 code --install-extension com.postman/postman-mcp-server                 # Postman MCP Server
-code --install-extension huggingface/hf-mcp-server                      # Hugging Face
 
 
-# ================================================================================
+# ====================================================================================================
 # Installation complete.
-# ================================================================================
+# ====================================================================================================
