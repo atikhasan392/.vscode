@@ -1,55 +1,43 @@
 {
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     // FILE MANAGEMENT
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "files.autoSave": "afterDelay",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // FONT & TYPOGRAPHY
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     "editor.fontSize": 15,
     "editor.fontWeight": "300",
     "editor.fontLigatures": true,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // CSS / SCSS / LESS VALIDATION
     // Disabled to suppress false-positive warnings for vendor-prefixed or
     // non-standard properties (e.g. Tailwind CSS directives).
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "css.validate": false,
     "scss.validate": false,
     "less.validate": false,
 
-    // -------------------------------------------------------------------------
-    // PHP / PHP Intelephense
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
+    // PHP
+    // ----------------------------------------------------------------------------------------------------
     "php.validate.enable": true,
     "php.validate.executablePath": "/usr/bin/php",
 
-    // -------------------------------------------------------------------------
-    // PHP INTELEPHENSE
-    // -------------------------------------------------------------------------
-    "php.version": "8.5",
-    "intelephense.environment.phpVersion": "8.5",
-    "intelephense.format.enable": true,
-    "intelephense.files.exclude": [
-        "**/.git/**",
-        "**/.idea/**",
-        "**/.vscode/**",
-        "**/node_modules/**",
-        "**/storage/framework/**",
-        "**/storage/logs/**",
-        "**/bootstrap/cache/**"
-    ],
 
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     // EDITOR APPEARANCE & BEHAVIOUR
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
@@ -63,17 +51,19 @@
     "editor.formatOnSave": false,
     "breadcrumbs.enabled": true,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // WINDOW
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "window.titleBarStyle": "custom",
     "window.density.layout": "compact",
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // WORKSPACE SECURITY
     // Workspace trust is fully disabled to allow unrestricted access
     // to files across all environments without interruption.
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.banner": "never",
     "security.workspace.trust.emptyWindow": false,
@@ -83,87 +73,81 @@
         "wsl$"
     ],
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // HTML FORMATTING
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "html.format.wrapLineLength": 0,
     "html.format.indentInnerHtml": true,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // GIT
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "git.enableCommitSigning": true,
     "git.autoRepositoryDetection": "openEditors",
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // INTEGRATED TERMINAL
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.scrollback": 20000,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.stickyScroll.enabled": false,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // WORKBENCH — THEME & ICONS
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "workbench.colorTheme": "Monokai Pro (Filter Machine)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.visible": true,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // WORKBENCH — EDITOR TABS & LAYOUT
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "explorer.compactFolders": false,
     "workbench.editor.enablePreview": true,
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.tabSizing": "shrink",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // BACKGROUND IMAGES (vscode-background extension)
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "background.autoInstall": true,
     "background.editorBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"],
     "background.sidebarBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/sidebar/1.jpg"],
     "background.panelBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/panel/1.jpg"],
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // EDITOR DEFAULT FORMATTET
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[php]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[blade]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-    "[blade]": { "editor.defaultFormatter": "onecentlin.laravel-blade" },
     "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
-    // -------------------------------------------------------------------------
-    // GITHUB COPILOT
-    // -------------------------------------------------------------------------
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "php": false
-    },
 
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     // MATERIAL ICON THEME — GLOBAL APPEARANCE
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "material-icon-theme.opacity": 1,
     "material-icon-theme.saturation": 1,
     "material-icon-theme.folders.theme": "specific",
@@ -171,9 +155,10 @@
     "material-icon-theme.files.color": "#fff",
     "material-icon-theme.hidesExplorerArrows": false,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // MATERIAL ICON THEME — LARAVEL FILE ASSOCIATIONS
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "material-icon-theme.files.associations": {
         "*.blade.php": "laravel",
         "artisan": "laravel",
@@ -186,9 +171,10 @@
         "phpunit.xml": "test-js"
     },
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // MATERIAL ICON THEME — LARAVEL FOLDER ASSOCIATIONS
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "material-icon-theme.folders.associations": {
         "bootstrap": "core",
         "Http": "global",
@@ -198,14 +184,16 @@
         "storage": "server"
     },
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // EXTENSIONS — MISCELLANEOUS
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "liveServer.settings.donotShowInfoMsg": true,
 
-    // -------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------------------
     // BROWSER SETTINGS
-    // -------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------------------------
     "workbench.browser.searchEngine": "none",
     "workbench.browser.openLocalhostLinks": false,
     "workbench.browser.sendElementsToChat.attachImages": false,
