@@ -33,6 +33,7 @@ code --install-extension redhat.vscode-yaml                             # YAML
 code --install-extension ms-vscode.notepadplusplus-keybindings          # Notepad++ keymap
 code --install-extension editorconfig.editorconfig                      # EditorConfig
 code --install-extension dotjoshjohnson.xml                             # XML Tools
+code --install-extension ritwickdey.LiveServer                          # Live Server
 
 
 # ----------------------------------------------------------------------------------------------------
@@ -75,6 +76,9 @@ code --install-extension muath-ye.composer-intelephense                 # Compos
 code --install-extension devsense.phptools-vscode                       # PHP
 code --install-extension devsense.intelli-php-vscode                    # IntelliPHP - AI Suggestions for PHP
 code --install-extension rifi2k.format-html-in-php                      # Format HTML in PHP
+code --install-extension zobo.php-intellisense                          # PHP IntelliSense
+code --install-extension mehedidracula.php-namespace-resolver           # PHP Namespace Resolver
+code --install-extension neilbrayfield.php-docblocker                   # PHP DocBlocker
 
 
 # ----------------------------------------------------------------------------------------------------
@@ -144,12 +148,6 @@ code --install-extension davidanson.vscode-markdownlint                 # Markdo
 # Remote Development
 # ----------------------------------------------------------------------------------------------------
 code --install-extension ms-vscode-remote.remote-wsl                    # WSL
-
-
-# ----------------------------------------------------------------------------------------------------
-# Development Server
-# ----------------------------------------------------------------------------------------------------
-code --install-extension ritwickdey.LiveServer                          # Live Server
 
 
 # ----------------------------------------------------------------------------------------------------
