@@ -20,19 +20,10 @@
 
     // ----------------------------------------------------------------------------------------------------
     // CSS / SCSS / LESS VALIDATION
-    // Disabled to suppress false-positive warnings for vendor-prefixed or
-    // non-standard properties (e.g. Tailwind CSS directives).
     // ----------------------------------------------------------------------------------------------------
     "css.validate": false,
     "scss.validate": false,
     "less.validate": false,
-
-
-    // ----------------------------------------------------------------------------------------------------
-    // PHP
-    // ----------------------------------------------------------------------------------------------------
-    "php.validate.enable": true,
-    "php.validate.executablePath": "/usr/bin/php",
 
 
     // ----------------------------------------------------------------------------------------------------
@@ -61,8 +52,6 @@
 
     // ----------------------------------------------------------------------------------------------------
     // WORKSPACE SECURITY
-    // Workspace trust is fully disabled to allow unrestricted access
-    // to files across all environments without interruption.
     // ----------------------------------------------------------------------------------------------------
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.banner": "never",
@@ -92,7 +81,7 @@
 
 
     // ----------------------------------------------------------------------------------------------------
-    // INTEGRATED TERMINAL
+    // INTEGRATED TERMINAL — WINDOWS
     // ----------------------------------------------------------------------------------------------------
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.scrollback": 20000,
@@ -120,7 +109,7 @@
 
 
     // ----------------------------------------------------------------------------------------------------
-    // BACKGROUND IMAGES (vscode-background extension)
+    // BACKGROUND IMAGES
     // ----------------------------------------------------------------------------------------------------
     "background.autoInstall": true,
     "background.editorBackgrounds": ["https://raw.githubusercontent.com/atikhasan392/.vscode/refs/heads/main/background/editor/1.jpg"],
@@ -129,7 +118,7 @@
 
 
     // ----------------------------------------------------------------------------------------------------
-    // EDITOR DEFAULT FORMATTET
+    // EDITOR DEFAULT FORMATTER
     // ----------------------------------------------------------------------------------------------------
     "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -146,7 +135,7 @@
 
 
     // ----------------------------------------------------------------------------------------------------
-    // MATERIAL ICON THEME — GLOBAL APPEARANCE
+    // MATERIAL ICON THEME
     // ----------------------------------------------------------------------------------------------------
     "material-icon-theme.opacity": 1,
     "material-icon-theme.saturation": 1,
@@ -186,7 +175,7 @@
 
 
     // ----------------------------------------------------------------------------------------------------
-    // EXTENSIONS — MISCELLANEOUS
+    // EXTENSIONS
     // ----------------------------------------------------------------------------------------------------
     "liveServer.settings.donotShowInfoMsg": true,
 
