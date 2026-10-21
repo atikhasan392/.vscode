@@ -76,7 +76,6 @@ code --install-extension muath-ye.composer-intelephense                 # Compos
 code --install-extension devsense.phptools-vscode                       # PHP
 code --install-extension devsense.intelli-php-vscode                    # IntelliPHP - AI Suggestions for PHP
 code --install-extension rifi2k.format-html-in-php                      # Format HTML in PHP
-code --install-extension zobo.php-intellisense                          # PHP IntelliSense
 code --install-extension mehedidracula.php-namespace-resolver           # PHP Namespace Resolver
 code --install-extension neilbrayfield.php-docblocker                   # PHP DocBlocker
 
