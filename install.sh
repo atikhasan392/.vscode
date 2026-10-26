@@ -34,6 +34,7 @@ code --install-extension ms-vscode.notepadplusplus-keybindings          # Notepa
 code --install-extension editorconfig.editorconfig                      # EditorConfig
 code --install-extension dotjoshjohnson.xml                             # XML Tools
 code --install-extension ritwickdey.LiveServer                          # Live Server
+code --install-extension prlabs.git-ignored                             # .gitignored - Toggle .gitignore'd Files
 
 
 # ----------------------------------------------------------------------------------------------------
