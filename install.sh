@@ -124,9 +124,9 @@ code --install-extension astro-build.astro-vscode                       # Astro
 
 
 # ----------------------------------------------------------------------------------------------------
-# .NET
+# API
 # ----------------------------------------------------------------------------------------------------
-code --install-extension ms-dotnettools.vscode-dotnet-runtime           # .NET Install Tool
+code --install-extension postman.postman-for-vscode                     # Postman
 
 
 # --------------------------------------------------------------------------------
