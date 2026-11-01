@@ -154,6 +154,7 @@ code --install-extension ms-vscode-remote.remote-wsl                    # WSL
 # ----------------------------------------------------------------------------------------------------
 code --install-extension ollama.ollama                                  # Ollama
 code --install-extension openai.chatgpt                                 # Codex – OpenAI’s coding agent
+code --install-extension google.google-antigravity                      # Google Antigravity
 
 
 # ----------------------------------------------------------------------------------------------------
