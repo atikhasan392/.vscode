@@ -14,7 +14,7 @@
     // ----------------------------------------------------------------------------------------------------
     "editor.fontFamily": "Fira Code, 'Courier New', monospace", // "Fira Code, 'Courier New', monospace" or "JetBrains Mono, 'Courier New', monospace"
     "editor.fontSize": 15,
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "400",
     "editor.fontLigatures": true,
 
 
