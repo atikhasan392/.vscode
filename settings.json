@@ -12,7 +12,7 @@
     // ----------------------------------------------------------------------------------------------------
     // FONT & TYPOGRAPHY
     // ----------------------------------------------------------------------------------------------------
-    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code, 'Courier New', monospace", // "Fira Code, 'Courier New', monospace" or "JetBrains Mono, 'Courier New', monospace"
     "editor.fontSize": 15,
     "editor.fontWeight": "300",
     "editor.fontLigatures": true,
