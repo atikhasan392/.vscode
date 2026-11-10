@@ -123,12 +123,6 @@ code --install-extension adrianwilczynski.alpine-js-intellisense        # Alpine
 code --install-extension astro-build.astro-vscode                       # Astro
 
 
-# ----------------------------------------------------------------------------------------------------
-# API
-# ----------------------------------------------------------------------------------------------------
-code --install-extension postman.postman-for-vscode                     # Postman
-
-
 # --------------------------------------------------------------------------------
 # Database
 # --------------------------------------------------------------------------------
@@ -163,7 +157,6 @@ code --install-extension google.google-antigravity                      # Google
 code --install-extension io.github.ChromeDevTools/chrome-devtools-mcp   # Chrome DevTools MCP
 code --install-extension io.github.github/github-mcp-server             # GitHub
 code --install-extension io.github.bytebase/dbhub                       # DBHub
-code --install-extension com.postman/postman-mcp-server                 # Postman MCP Server
 
 
 # ====================================================================================================
