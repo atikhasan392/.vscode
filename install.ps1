@@ -12,7 +12,7 @@ $ErrorActionPreference = "Continue"
 # Extension and category data
 $extensionData = @"
 # ==============================================================================
-# Workbench — Theme & Icons
+# Workbench - Theme & Icons
 # ==============================================================================
 monokai.theme-monokai-pro-vscode             # Monokai Pro
 pkief.material-icon-theme                    # Material Icon Theme
