@@ -1,164 +1,219 @@
 #!/bin/bash
 
-# ====================================================================================================
-# VS Code Extension OR MCP Tools Installer
-# ====================================================================================================
-# Run this script to install all required VS Code extensions at once.
-# Usage: bash install.sh
-# ====================================================================================================
+# ==============================================================================
+# Professional VS Code Extension Installer (Bash Edition)
+# ==============================================================================
 
+# ANSI Color Codes
+CYAN='\033[0;36m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
+GRAY='\033[0;90m'
+NC='\033[0m' # No Color
 
-# ----------------------------------------------------------------------------------------------------
+# Extension and category data
+EXTENSIONS=$(cat << 'EOF'
+# ==============================================================================
 # Workbench — Theme & Icons
-# ----------------------------------------------------------------------------------------------------
-code --install-extension monokai.theme-monokai-pro-vscode                # Monokai Pro
-code --install-extension pkief.material-icon-theme                       # Material Icon Theme
-code --install-extension katsute.code-background                         # Background
+# ==============================================================================
+monokai.theme-monokai-pro-vscode             # Monokai Pro
+pkief.material-icon-theme                    # Material Icon Theme
+katsute.code-background                      # Background
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Editor Utilities
-# ----------------------------------------------------------------------------------------------------
-code --install-extension vincaslt.highlight-matching-tag                # Highlight Matching Tag
-code --install-extension naumovs.color-highlight                        # Color Highlight
-code --install-extension formulahendry.auto-close-tag                   # Auto Close Tag
-code --install-extension formulahendry.auto-rename-tag                  # Auto Rename Tag
-code --install-extension aaron-bond.better-comments                     # Better Comments
-code --install-extension bracketpaircolordlw.bracket-pair-color-dlw     # Bracket Pair Color DLW
-code --install-extension shardulm94.trailing-spaces                     # Trailing Spaces
-code --install-extension christian-kohler.path-intellisense             # Path Intellisense
-code --install-extension simonsiefke.svg-preview                        # SVG Preview
-code --install-extension esbenp.prettier-vscode                         # Prettier — Code Formatter
-code --install-extension redhat.vscode-yaml                             # YAML
-code --install-extension ms-vscode.notepadplusplus-keybindings          # Notepad++ keymap
-code --install-extension editorconfig.editorconfig                      # EditorConfig
-code --install-extension dotjoshjohnson.xml                             # XML Tools
-code --install-extension ritwickdey.LiveServer                          # Live Server
+# ==============================================================================
+vincaslt.highlight-matching-tag              # Highlight Matching Tag
+naumovs.color-highlight                      # Color Highlight
+formulahendry.auto-close-tag                 # Auto Close Tag
+formulahendry.auto-rename-tag                # Auto Rename Tag
+aaron-bond.better-comments                   # Better Comments
+bracketpaircolordlw.bracket-pair-color-dlw   # Bracket Pair Color DLW
+shardulm94.trailing-spaces                   # Trailing Spaces
+christian-kohler.path-intellisense           # Path Intellisense
+simonsiefke.svg-preview                      # SVG Preview
+esbenp.prettier-vscode                       # Prettier — Code Formatter
+redhat.vscode-yaml                           # YAML
+ms-vscode.notepadplusplus-keybindings        # Notepad++ keymap
+editorconfig.editorconfig                    # EditorConfig
+dotjoshjohnson.xml                           # XML Tools
+ritwickdey.LiveServer                        # Live Server
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Version Control CI/CD
-# ----------------------------------------------------------------------------------------------------
-code --install-extension gitlab.gitlab-workflow                         # GitLab
+# ==============================================================================
+gitlab.gitlab-workflow                       # GitLab
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # HTML & CSS
-# ----------------------------------------------------------------------------------------------------
-code --install-extension anteprimorac.html-end-tag-labels               # HTML End Tag Labels
-code --install-extension solnurkarim.html-to-css-autocompletion         # HTML to CSS Autocompletion
-code --install-extension zignd.html-css-class-completion                # IntelliSense for CSS Class Names in HTML
-code --install-extension joy-yu.css-snippets                            # CSS Snippets
+# ==============================================================================
+anteprimorac.html-end-tag-labels             # HTML End Tag Labels
+solnurkarim.html-to-css-autocompletion       # HTML to CSS Autocompletion
+zignd.html-css-class-completion              # IntelliSense for CSS Class Names in HTML
+joy-yu.css-snippets                          # CSS Snippets
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Tailwind CSS
-# ----------------------------------------------------------------------------------------------------
-code --install-extension bradlc.vscode-tailwindcss                      # Tailwind CSS IntelliSense
+# ==============================================================================
+bradlc.vscode-tailwindcss                    # Tailwind CSS IntelliSense
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # JavaScript & Node.js
-# ----------------------------------------------------------------------------------------------------
-code --install-extension dbaeumer.vscode-eslint                         # ESLint
-code --install-extension christian-kohler.npm-intellisense              # npm Intellisense
-code --install-extension omouta.terminal-npm-intellisense               # Terminal NPM IntelliSense
-code --install-extension oven.bun-vscode                                # Bun for Visual Studio Code
+# ==============================================================================
+dbaeumer.vscode-eslint                       # ESLint
+christian-kohler.npm-intellisense            # npm Intellisense
+omouta.terminal-npm-intellisense             # Terminal NPM IntelliSense
+oven.bun-vscode                              # Bun for Visual Studio Code
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # PHP
-# ----------------------------------------------------------------------------------------------------
-code --install-extension xdebug.php-debug                               # PHP Debug
-code --install-extension bmewburn.vscode-intelephense-client            # PHP Intelephense
-code --install-extension devsense.composer-php-vscode                   # Composer
-code --install-extension muath-ye.composer-intelephense                 # Composer Intelephense
-code --install-extension devsense.phptools-vscode                       # PHP
-code --install-extension devsense.intelli-php-vscode                    # IntelliPHP - AI Suggestions for PHP
-code --install-extension rifi2k.format-html-in-php                      # Format HTML in PHP
-code --install-extension mehedidracula.php-namespace-resolver           # PHP Namespace Resolver
-code --install-extension neilbrayfield.php-docblocker                   # PHP DocBlocker
+# ==============================================================================
+xdebug.php-debug                             # PHP Debug
+bmewburn.vscode-intelephense-client          # PHP Intelephense
+devsense.composer-php-vscode                 # Composer
+muath-ye.composer-intelephense               # Composer Intelephense
+devsense.phptools-vscode                     # PHP
+devsense.intelli-php-vscode                  # IntelliPHP - AI Suggestions for PHP
+rifi2k.format-html-in-php                    # Format HTML in PHP
+mehedidracula.php-namespace-resolver         # PHP Namespace Resolver
+neilbrayfield.php-docblocker                 # PHP DocBlocker
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Laravel
-# ----------------------------------------------------------------------------------------------------
-code --install-extension laravel.vscode-laravel                         # Laravel (official)
-code --install-extension onecentlin.laravel-blade                       # Laravel Blade Snippets
-code --install-extension onecentlin.laravel5-snippets                   # Laravel Snippets
-code --install-extension austenc.laravel-blade-spacer                   # Laravel Blade Spacer
-code --install-extension absszero.vscode-laravel-goto                   # Laravel Goto
-code --install-extension naoray.laravel-goto-components                 # Laravel Goto Components
-code --install-extension codingyu.laravel-goto-view                     # Laravel Goto View
-code --install-extension mohamedbenhida.laravel-intellisense            # Laravel IntelliSense
-code --install-extension amiralizadeh9480.laravel-extra-intellisense    # Laravel Extra IntelliSense
-code --install-extension shufo.vscode-blade-formatter                   # Laravel Blade formatter
+# ==============================================================================
+laravel.vscode-laravel                       # Laravel (official)
+onecentlin.laravel-blade                     # Laravel Blade Snippets
+onecentlin.laravel5-snippets                 # Laravel Snippets
+austenc.laravel-blade-spacer                 # Laravel Blade Spacer
+absszero.vscode-laravel-goto                 # Laravel Goto
+naoray.laravel-goto-components               # Laravel Goto Components
+codingyu.laravel-goto-view                   # Laravel Goto View
+mohamedbenhida.laravel-intellisense          # Laravel IntelliSense
+amiralizadeh9480.laravel-extra-intellisense  # Laravel Extra IntelliSense
+shufo.vscode-blade-formatter                 # Laravel Blade formatter
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Livewire
-# ----------------------------------------------------------------------------------------------------
-code --install-extension cierra.livewire-vscode                         # Livewire Language Support
-code --install-extension ganyicz.livewire-sfc-support                   # Livewire SFC / Volt Support
-code --install-extension lennardv.livewire-goto-updated                 # Livewire Goto
+# ==============================================================================
+cierra.livewire-vscode                       # Livewire Language Support
+ganyicz.livewire-sfc-support                 # Livewire SFC / Volt Support
+lennardv.livewire-goto-updated               # Livewire Goto
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Filament
-# ----------------------------------------------------------------------------------------------------
-code --install-extension juniorpeixoto.vscode-filamentphp-helpers       # Filament PHP Helpers
-code --install-extension alperenersoy.filament-snippets                 # Filament Snippets
+# ==============================================================================
+juniorpeixoto.vscode-filamentphp-helpers     # Filament PHP Helpers
+alperenersoy.filament-snippets               # Filament Snippets
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Alpine.js
-# ----------------------------------------------------------------------------------------------------
-code --install-extension pcbowers.alpine-intellisense                   # Alpine.js IntelliSense
-code --install-extension adrianwilczynski.alpine-js-intellisense        # Alpine.js IntelliSense (alternative)
+# ==============================================================================
+pcbowers.alpine-intellisense                 # Alpine.js IntelliSense
+adrianwilczynski.alpine-js-intellisense      # Alpine.js IntelliSense (alternative)
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Astro
-# ----------------------------------------------------------------------------------------------------
-code --install-extension astro-build.astro-vscode                       # Astro
+# ==============================================================================
+astro-build.astro-vscode                     # Astro
 
-
-# --------------------------------------------------------------------------------
+# ==============================================================================
 # Database
-# --------------------------------------------------------------------------------
-code --install-extension jakebathman.mysql-syntax                       # MySQL Syntax
-code --install-extension redis.redis-for-vscode                         # Redis for VS Code
+# ==============================================================================
+jakebathman.mysql-syntax                     # MySQL Syntax
+redis.redis-for-vscode                       # Redis for VS Code
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Environment & Configuration
-# ----------------------------------------------------------------------------------------------------
-code --install-extension mikestead.dotenv                               # DotENV
-code --install-extension davidanson.vscode-markdownlint                 # Markdownlint
+# ==============================================================================
+mikestead.dotenv                             # DotENV
+davidanson.vscode-markdownlint               # Markdownlint
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # Remote Development
-# ----------------------------------------------------------------------------------------------------
-code --install-extension ms-vscode-remote.remote-wsl                    # WSL
+# ==============================================================================
+ms-vscode-remote.remote-wsl                  # WSL
 
-
-# ----------------------------------------------------------------------------------------------------
+# ==============================================================================
 # AI Assistants
-# ----------------------------------------------------------------------------------------------------
-code --install-extension ollama.ollama                                  # Ollama
-code --install-extension openai.chatgpt                                 # Codex – OpenAI’s coding agent
-code --install-extension google.google-antigravity                      # Google Antigravity
+# ==============================================================================
+ollama.ollama                                # Ollama
+openai.chatgpt                               # Codex - OpenAI's coding agent
+google.google-antigravity                    # Google Antigravity
+EOF
+)
 
+clear
+echo -e "${CYAN}==============================================================================${NC}"
+echo -e "${GREEN} VS Code Extension Installer${NC} ${WHITE}(Bash Edition)${NC}"
+echo -e "${CYAN}==============================================================================${NC}"
+echo -e "${YELLOW}Starting installation process...\n${NC}"
 
-# ----------------------------------------------------------------------------------------------------
-# MCP Servers
-# ----------------------------------------------------------------------------------------------------
-code --install-extension io.github.ChromeDevTools/chrome-devtools-mcp   # Chrome DevTools MCP
-code --install-extension io.github.github/github-mcp-server             # GitHub
-code --install-extension io.github.bytebase/dbhub                       # DBHub
+# Check if VS Code is in the system PATH
+if ! command -v code &> /dev/null; then
+    echo -e "${RED}[ERROR] VS Code ('code' command) is not found in your system PATH.${NC}"
+    echo -e "${RED}Please ensure VS Code is installed and added to PATH, then restart your terminal.${NC}"
+    exit 1
+fi
 
+total=0
+success=0
+failed=0
 
-# ====================================================================================================
-# Installation complete.
-# ====================================================================================================
+# Read extensions list line by line
+while IFS= read -r line; do
+    # Trim leading/trailing whitespace
+    line=$(echo "$line" | xargs)
+
+    # Skip empty lines and dividers
+    if [[ -z "$line" || "$line" == "# ==="* ]]; then
+        continue
+    fi
+
+    # Print category header
+    if [[ "$line" == "#"* ]]; then
+        cat_name=$(echo "$line" | sed 's/^# *//')
+        echo -e "\n${CYAN}> ${cat_name}${NC}"
+        continue
+    fi
+
+    # Extract extension ID and name
+    ext_id=$(echo "$line" | awk '{print $1}')
+    if [[ "$line" == *"#"* ]]; then
+        ext_name=$(echo "$line" | sed 's/^[^#]*# *//')
+    else
+        ext_name="$ext_id"
+    fi
+
+    ((total++))
+
+    # Maintain output alignment for better UI
+    padding=$(( 45 - ${#ext_name} ))
+    [[ $padding -lt 2 ]] && padding=2
+    pad_spaces=$(printf '%*s' "$padding" "")
+
+    printf "  Installing: ${WHITE}%s${NC}%s${GRAY}... ${NC}" "$ext_name" "$pad_spaces"
+
+    # Run installation process in the background
+    if code --install-extension "$ext_id" --force &> /dev/null; then
+        echo -e "${GREEN}[ SUCCESS ]${NC}"
+        ((success++))
+    else
+        echo -e "${RED}[ FAILED ]${NC}"
+        ((failed++))
+    fi
+
+done <<< "$EXTENSIONS"
+
+echo -e "\n${CYAN}==============================================================================${NC}"
+echo -e "${GREEN} Installation Complete!${NC}"
+echo -e "${WHITE} Total Attempted : ${total}${NC}"
+echo -e "${GREEN} Successful      : ${success}${NC}"
+
+if [ "$failed" -gt 0 ]; then
+    echo -e "${RED} Failed          : ${failed}${NC}"
+else
+    echo -e "${GRAY} Failed          : 0${NC}"
+fi
+echo -e "${CYAN}==============================================================================${NC}"
